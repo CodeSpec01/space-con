@@ -16,9 +16,9 @@ const Hero = () => {
         parallax_el.forEach((ele) => {
 
             const el = ele as HTMLElement;
-          let speedX = parseInt(el.dataset.speedx!);
-          let speedY = parseInt(el.dataset.speedy!);
-          let speedZ = parseInt(el.dataset.speedz!);
+          let speedX = parseFloat(el.dataset.speedx!);
+          let speedY = parseFloat(el.dataset.speedy!);
+          let speedZ = parseFloat(el.dataset.speedz!);
 
           let mapSide =
             parseFloat(getComputedStyle(el).left) < window.innerWidth / 2
