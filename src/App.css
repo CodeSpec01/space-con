@@ -56,10 +56,6 @@ svg {
   width: 80px;
 }
 
-/* .burger {
-  filter: url(#gooeyness);
-} */
-
 .x {
   transform: scale(0);
   transition: transform 400ms;
