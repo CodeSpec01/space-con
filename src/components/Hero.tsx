@@ -121,10 +121,10 @@ const Hero = () => {
           ></img>
         </div>
         <div className="h-screen w-full absolute top-0 left-0 flex justify-center items-center flex-col pb-[20%]">
-        <h1 className="font-orbitron text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-50 ">
+        <h1 className="font-orbitron text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
           <strong>SPACECON</strong>
         </h1>
-        <h2 className="font-mono text-white text-[4vw]  text-center align-middle z-50">
+        <h2 className="font-mono text-white text-[4vw]  text-center align-middle z-40">
           NAKSHATRA x TDS
         </h2>
       </div>
