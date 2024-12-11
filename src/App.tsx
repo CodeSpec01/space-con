@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Hero from "./components/Hero";
 import Loader from "./components/Loader";
@@ -8,19 +8,26 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 function App() {
+  const [data, setData] = useState<Events[] | undefined>(undefined);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // const response = await fetch(import.meta.env.VITE_API);
-        // if (!response.ok) {
-        //   throw new Error("Failed to fetch");
-        // }
-        // const data = await response.json();
-        // console.log(data);
+        console.log("start fetching data");
+        const response = await fetch(import.meta.env.VITE_API);
+        if (!response.ok) {
+          throw new Error("Failed to fetch");
+        }
+        const data = await response.json();
+        setData(data);
+        console.log("data fetched");
+        console.log(data);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
         setTimeout(() => {
+          setLoading(false);
           const ele = document.querySelector("#page-loader") as HTMLElement;
           const ele2 = document.querySelector("#main-content") as HTMLElement;
 
@@ -42,6 +49,10 @@ function App() {
     fetchData();
   }, []);
 
+  if (loading) {
+    return <Loader />
+  }
+
   return (
     <>
       <Loader />
@@ -51,7 +62,7 @@ function App() {
       >
         <Hero />
         <Timeline />
-        <Events />
+        <Events data={data!} />
         <About />
         <Contact />
       </div>

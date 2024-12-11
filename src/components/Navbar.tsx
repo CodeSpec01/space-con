@@ -8,7 +8,12 @@ const Navbar = () => {
       <div className="w-[100vw] flex justify-center items-center z-50 fixed md:top-[4vh]">
         <div className="w-full md:w-[90%] flex justify-center m-auto backdrop-blur-md px-[3vw] md:py-[1.5vh] md:rounded-full bg-black/50">
           <div className="w-full md:w-full flex justify-between items-center">
-            <div className="flex justify-center items-center gap-[1vw] min-w-20 ">
+            <div
+              className="flex justify-center items-center gap-[1vw] min-w-20 cursor-pointer"
+              onClick={() =>
+                (window.location.href = "https://aviralgaur.vercel.app/about")
+              }
+            >
               <img
                 src="/logo.png"
                 alt="Logo"

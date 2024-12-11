@@ -45,10 +45,10 @@ const Hero = () => {
       <div className="h-screen w-full">
         <Navbar />
         <img
-          className="absolute h-full w-full bg-center object-cover -z-50"
+          className="absolute h-full w-full bg-center object-cover"
           src="/hero-bg.png"
         ></img>
-        {/* <div className="h-[100svh] w-full absolute top-0 left-0 vignette z-40"></div> */}
+        <div className="h-[100svh] w-full absolute top-0 left-0 vignette z-40"></div>
         <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center ">
           <img
             data-speedx={"0.05"}

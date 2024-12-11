@@ -6,22 +6,22 @@ const socials = [
   {
     title: "Instagram",
     icon: <img src="instagram.svg" alt="instagram" className="invert" />,
-    href: "https://www.instagram.com/nakshatransit/",
+    href: "https://www.instagram.com/hydr0gen_001/",
   },
   {
     title: "LinkedIn",
     icon: <img src="linkedin.svg" alt="linkedin" className="invert" />,
-    href: "https://www.instagram.com/nakshatransit/",
+    href: "https://www.instagram.com/aviral._.gaur/",
   },
   {
     title: "Unstop",
     icon: <img src="unstop.svg" alt="unstop" className="invert-0" />,
-    href: "https://www.instagram.com/nakshatransit/",
+    href: "https://www.instagram.com/hydr0gen_001/",
   },
   {
     title: "Gmail",
     icon: <img src="gmail.svg" alt="gmail" className="invert" />,
-    href: "https://www.instagram.com/nakshatransit/",
+    href: "https://www.instagram.com/aviral._.gaur/",
   },
 ];
 

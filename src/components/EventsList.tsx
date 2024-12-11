@@ -1,41 +1,106 @@
+import Events from "./Events";
 import { Marquee } from "./Marquee";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=900",
+    title: "Hackathon",
+    description:
+      "48 hours non stop hackathon with exceptional performance and moderation",
+    venue: "Mini Audi",
+    date: "23-01-2025",
+    time: "10:00 AM",
+    unstopLink: "https://aviralgaur.vercel.app/about",
   },
 ];
 
@@ -44,42 +109,56 @@ const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({
   img,
-  name,
-  username,
-  body,
+  title,
+  description,
+  venue,
+  date,
+  time,
+  unstopLink,
 }: {
   img: string;
-  name: string;
-  username: string;
-  body: string;
+  title: string;
+  description: string;
+  venue: string;
+  date: string;
+  time: string;
+  unstopLink: string;
 }) => {
   return (
-    <figure className="relative w-[70vw] md:w-[30vw] h-[30vh] cursor-pointer overflow-hidden rounded-xl border p-4 border-gray-50/[.1] bg-gray-50/[.10] hover:bg-gray-50/[.15]">
-      <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
-        <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
-            {name}
-          </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+    <>
+      <div
+        className="border-gray-50/[.1] bg-gray-50/[.10] hover:bg-gray-50/[.15] w-[70vw] md:w-[30vw] h-[40vh] rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col font-orbitron cursor-pointer"
+        onClick={() => {
+          window.location.href = unstopLink;
+        }}
+      >
+        <img src={img} className="object-cover h-48"></img>
+        <div className="p-4 flex-1 flex flex-col">
+          <h3 className="mb-4 text-2xl">{title}</h3>
+          <div className="mb-4 text-grey-darker text-sm flex-1">
+            <p>{description}</p>
+          </div>
+          <p className="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide">
+            {date} {time}
+            {" , "} {venue}
+          </p>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
-    </figure>
+    </>
   );
 };
 
-export function EventsList() {
+export function EventsList({ data }: { data: Events[] }) {
   return (
     <div className="relative flex py-[3vh] w-full flex-col items-center justify-center overflow-hidden">
-      <Marquee pauseOnHover className="">
-        {firstRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
+      <Marquee pauseOnHover>
+        {data.map((item) => (
+          <ReviewCard key={item.title} {...item} />
         ))}
       </Marquee>
-      <Marquee reverse={true} pauseOnHover className="">
-        {secondRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
+      <Marquee reverse={true} pauseOnHover>
+        {data.map((review) => (
+          <ReviewCard key={review.title} {...review} />
         ))}
       </Marquee>
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#111] dark:from-background"></div>
