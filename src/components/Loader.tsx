@@ -3,8 +3,7 @@ import "./Loader.css";
 const Loader = () => {
   return (
     <div
-      className="loader-bg h-screen w-full flex flex-col gap-[5vh] transition-all duration-1000 absolute overflow-hidden"
-      id="page-loader"
+      className="loader-bg h-screen w-full flex flex-col gap-[5vh] transition-all duration-1000 absolute overflow-hidden page-loader"
     >
       <div className="planet"></div>
     </div>
