@@ -1,8 +1,20 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#about-earth {
+  animation: spin 40s linear infinite;
+  opacity: 0.8;
+  filter: brightness(0.5);
+}
+
 .navbar-text {
   position: relative;
 }
 
-.navbar-text::before{
+.navbar-text::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -14,12 +26,11 @@
   transition: all 0.5s;
 }
 
-.navbar-text:hover::before{
+.navbar-text:hover::before {
   width: 100%;
   right: 0%;
   left: 0%;
 }
-
 
 .vignette {
   background: radial-gradient(
@@ -35,7 +46,7 @@
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
-  transition: all 0.45s cubic-bezier(0,.57,1,.34)
+  transition: all 0.45s cubic-bezier(0, 0.57, 1, 0.34);
 }
 
 svg {
@@ -68,7 +79,8 @@ svg {
   stroke-linecap: round;
   stroke-linejoin: round;
   transform-origin: 50%;
-  transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+  transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+    transform 500ms 200ms;
 }
 
 .x .line {

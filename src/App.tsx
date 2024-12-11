@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Loader from "./components/Loader";
 import Timeline from "./components/Timeline";
 import Events from "./components/Events";
+import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -50,9 +51,7 @@ function App() {
         <Hero />
         <Timeline />
         <Events />
-        <div className="min-h-screen bg-[#111] text-white" id="about">
-          about us
-        </div>
+        <About />
         <div className="min-h-screen bg-[#111] text-white" id="contact">
           contact us
         </div>
