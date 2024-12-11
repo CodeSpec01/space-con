@@ -23,16 +23,16 @@ const Navbar = () => {
                 <a href="#" className="navbar-text">
                   Home
                 </a>
-                <a href="#" className="navbar-text">
+                <a href="#timeline" className="navbar-text">
                   Timeline
                 </a>
-                <a href="#" className="navbar-text">
+                <a href="#events" className="navbar-text">
                   Events
                 </a>
-                <a href="#" className="navbar-text">
+                <a href="#about" className="navbar-text">
                   About Us
                 </a>
-                <a href="#" className="navbar-text">
+                <a href="#contact" className="navbar-text">
                   Contact Us
                 </a>
               </ul>
@@ -123,16 +123,16 @@ const Navbar = () => {
                   <a href="#" className="navbar-text border-y-2 w-full py-3">
                     Home
                   </a>
-                  <a href="#" className="navbar-text border-b-2 w-full py-3">
+                  <a href="#timeline" className="navbar-text border-b-2 w-full py-3">
                     Timeline
                   </a>
-                  <a href="#" className="navbar-text border-b-2 w-full py-3">
+                  <a href="#events" className="navbar-text border-b-2 w-full py-3">
                     Events
                   </a>
-                  <a href="#" className="navbar-text border-b-2 w-full py-3">
+                  <a href="#about" className="navbar-text border-b-2 w-full py-3">
                     About Us
                   </a>
-                  <a href="#" className="navbar-text border-b-2 w-full py-3">
+                  <a href="#contact" className="navbar-text border-b-2 w-full py-3">
                     Contact Us
                   </a>
                 </div>
