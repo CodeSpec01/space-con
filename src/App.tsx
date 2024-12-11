@@ -25,6 +25,7 @@ function App() {
         console.log(data);
         setTimeout(() => {
           setLoading(false);
+          console.log("timeout complete");
           const ele = document.querySelector("#page-loader") as HTMLElement;
           const ele2 = document.querySelector("#main-content") as HTMLElement;
 
