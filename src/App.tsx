@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Loader from "./components/Loader";
 import Timeline from "./components/Timeline";
+import Events from "./components/Events";
 
 function App() {
   useEffect(() => {
@@ -48,9 +49,7 @@ function App() {
       >
         <Hero />
         <Timeline />
-        <div className="min-h-screen bg-[#111] text-white" id="events">
-          events
-        </div>
+        <Events />
         <div className="min-h-screen bg-[#111] text-white" id="about">
           about us
         </div>

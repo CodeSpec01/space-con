@@ -63,7 +63,7 @@ export function GradualSpacing({
 
   return (
     <div
-      className="flex justify-center space-x-1 cursor-pointer"
+      className="flex justify-center space-x-1 pointer-events-none"
       id="spacecon-subtitle"
       onClick={() => setKey((prevKey) => prevKey + 1)} // Increment key to restart animation
       key={key} // Unique key to re-render the component
