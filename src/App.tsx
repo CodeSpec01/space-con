@@ -32,14 +32,13 @@ function App() {
           ele.classList.add("h-screen");
           ele.style.opacity = "0";
           ele2.style.opacity = "1";
+          ele2.classList.remove("h-screen");
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
 
           setTimeout(() => {
             ele.style.display = "none";
           }, 500);
-
-          ele2.classList.remove("h-screen");
         }, 2000);
       } catch (error) {
         console.error("Error fetching data:", error);
