@@ -5,6 +5,7 @@ import Loader from "./components/Loader";
 import Timeline from "./components/Timeline";
 import Events from "./components/Events";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   useEffect(() => {
@@ -52,9 +53,7 @@ function App() {
         <Timeline />
         <Events />
         <About />
-        <div className="min-h-screen bg-[#111] text-white" id="contact">
-          contact us
-        </div>
+        <Contact />
       </div>
     </>
   );

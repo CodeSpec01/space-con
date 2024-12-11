@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-[100vw] flex justify-center items-center z-50 fixed top-[4vh]">
+      <div className="w-[100vw] flex justify-center items-center z-50 fixed md:top-[4vh]">
         <div className="w-full md:w-[90%] flex justify-center m-auto backdrop-blur-md px-[3vw] md:py-[1.5vh] md:rounded-full bg-black/50">
           <div className="w-full md:w-full flex justify-between items-center">
             <div className="flex justify-center items-center gap-[1vw] min-w-20 ">
@@ -101,7 +101,7 @@ const Navbar = () => {
               </div>
             </div>
             <div
-              className="w-[100vw] h-[100vh] -top-[4vh] left-0 -translate-x-[100%] transition-all duration-1000 absolute bg-black z-40 block md:hidden"
+              className="w-[100vw] h-[100vh] top-0 left-0 -translate-x-[100%] transition-all duration-1000 absolute bg-black z-40 block md:hidden"
               data-position="50"
               id="hamburger-menu"
             >
@@ -123,16 +123,28 @@ const Navbar = () => {
                   <a href="#" className="navbar-text border-y-2 w-full py-3">
                     Home
                   </a>
-                  <a href="#timeline" className="navbar-text border-b-2 w-full py-3">
+                  <a
+                    href="#timeline"
+                    className="navbar-text border-b-2 w-full py-3"
+                  >
                     Timeline
                   </a>
-                  <a href="#events" className="navbar-text border-b-2 w-full py-3">
+                  <a
+                    href="#events"
+                    className="navbar-text border-b-2 w-full py-3"
+                  >
                     Events
                   </a>
-                  <a href="#about" className="navbar-text border-b-2 w-full py-3">
+                  <a
+                    href="#about"
+                    className="navbar-text border-b-2 w-full py-3"
+                  >
                     About Us
                   </a>
-                  <a href="#contact" className="navbar-text border-b-2 w-full py-3">
+                  <a
+                    href="#contact"
+                    className="navbar-text border-b-2 w-full py-3"
+                  >
                     Contact Us
                   </a>
                 </div>

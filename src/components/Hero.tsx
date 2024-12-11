@@ -131,7 +131,7 @@ const Hero = () => {
           </h1>
           <h2 className="font-mono text-white text-[4vw] cursor-text text-center align-middle z-40">
             <GradualSpacing
-              className="font-orbitron text-[2vw] font-semibold"
+              className="font-orbitron text-[4vw] md:text-[2vw] mt-[1vh] md:mt-0 font-semibold"
               duration={0.5}
               delayMultiple={0.1}
               text="NAKSHATRA x TDS"
