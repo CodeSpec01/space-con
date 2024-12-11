@@ -3,7 +3,6 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Loader from "./components/Loader";
 import Timeline from "./components/Timeline";
-import { CoolMode } from "./components/Particles";
 
 function App() {
   useEffect(() => {
@@ -25,6 +24,8 @@ function App() {
           ele.classList.add("h-screen");
           ele.style.opacity = "0";
           ele2.style.opacity = "1";
+          document.getElementById("spacecon-title")?.click();
+          document.getElementById("spacecon-subtitle")?.click();
 
           setTimeout(() => {
             ele.style.display = "none";
@@ -47,11 +48,6 @@ function App() {
       >
         <Hero />
         <Timeline />
-        <div className="relative flex justify-center">
-          <CoolMode>
-            <button>Click Me</button>
-          </CoolMode>
-        </div>
         <div className="min-h-screen bg-[#111] text-white" id="events">
           events
         </div>

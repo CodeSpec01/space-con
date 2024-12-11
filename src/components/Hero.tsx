@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "./Navbar";
+import { HyperText } from "./HyperText";
+import { GradualSpacing } from "./FadeText";
 
 const Hero = () => {
   useEffect(() => {
@@ -120,10 +122,10 @@ const Hero = () => {
         </div>
         <div className="h-screen w-full absolute top-0 left-0 flex justify-center items-center flex-col pb-[35vh] md:pb-[20vh]">
           <h1 className="font-orbitron text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
-            <strong>SPACECON</strong>
+            <HyperText text="SPACECON" className="font-orbitron pointer-events-none" duration={300} />
           </h1>
           <h2 className="font-mono text-white text-[4vw]  text-center align-middle z-40">
-            NAKSHATRA x TDS
+            <GradualSpacing className="font-orbitron text-[2vw] font-semibold" duration={1} delayMultiple={0.15} text="NAKSHATRA x TDS" />
           </h2>
         </div>
       </div>
