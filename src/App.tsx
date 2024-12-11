@@ -35,8 +35,9 @@ function App() {
           ele2.classList.remove("h-screen");
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
-
+          
           setTimeout(() => {
+            ele2.classList.remove("h-screen");
             ele.style.display = "none";
           }, 500);
         }, 2000);
