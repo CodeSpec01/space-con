@@ -31,12 +31,13 @@ function App() {
 
           ele.classList.add("h-screen");
           ele.style.opacity = "0";
-          ele2.style.opacity = "1";
           ele2.classList.remove("h-screen");
+          ele2.style.opacity = "1";
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
           
           setTimeout(() => {
+            console.log("ran second timeout")
             ele2.classList.remove("h-screen");
             ele.style.display = "none";
           }, 500);
