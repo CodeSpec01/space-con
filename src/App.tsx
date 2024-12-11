@@ -23,9 +23,6 @@ function App() {
         setData(data);
         console.log("data fetched");
         console.log(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      } finally {
         setTimeout(() => {
           setLoading(false);
           const ele = document.querySelector("#page-loader") as HTMLElement;
@@ -43,6 +40,8 @@ function App() {
 
           ele2.classList.remove("h-screen");
         }, 2000);
+      } catch (error) {
+        console.error("Error fetching data:", error);
       }
     };
 
@@ -50,7 +49,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <Loader />
+    return <Loader />;
   }
 
   return (
