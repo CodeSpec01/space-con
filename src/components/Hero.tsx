@@ -126,7 +126,7 @@ const Hero = () => {
             <HyperText
               text="SPACECON"
               className="font-orbitron pointer-events-none"
-              duration={200}
+              duration={100}
             />
           </h1>
           <h2 className="font-mono text-white text-[4vw] cursor-text text-center align-middle z-40">

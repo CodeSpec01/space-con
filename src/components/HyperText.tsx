@@ -30,7 +30,7 @@ export function HyperText({
   const isFirstRender = useRef(true);
 
   const triggerAnimation = () => {
-    interations.current = -2;
+    interations.current = -1;
     setTrigger(true);
   };
 

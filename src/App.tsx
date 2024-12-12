@@ -28,15 +28,15 @@ function App() {
         setTimeout(() => {
           setLoading(false);
           console.log("timeout complete");
-          const loader = document.getElementById("page-loader") as HTMLElement;
+          document.getElementById("page-loader")?.click();
 
-          loader.style.opacity = "0";
+          // loader.style.opacity = "0";
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
           
           setTimeout(() => {
             console.log("ran second timeout")
-            loader.style.display = "none";
+            // loader.style.display = "none";
           }, 500);
         }, 2000);
       } catch (error) {
