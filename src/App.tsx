@@ -28,17 +28,17 @@ function App() {
         setTimeout(() => {
           setLoading(false);
           console.log("timeout complete");
-          document.getElementById("page-loader")?.click();
-
-          // loader.style.opacity = "0";
-          document.getElementById("spacecon-title")?.click();
-          document.getElementById("spacecon-subtitle")?.click();
-          
           setTimeout(() => {
-            console.log("ran second timeout")
+            document.getElementById("page-loader")?.click();
+
+            // loader.style.opacity = "0";
+            document.getElementById("spacecon-title")?.click();
+            document.getElementById("spacecon-subtitle")?.click();
+
+            console.log("ran second timeout");
             // loader.style.display = "none";
-          }, 500);
-        }, 2000);
+          }, 1000);
+        }, 1000);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
