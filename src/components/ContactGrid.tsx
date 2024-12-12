@@ -22,7 +22,7 @@ export function ContactGrid({
   strokeDasharray = 0,
   numSquares = 50,
   className,
-  maxOpacity = 0.5,
+  maxOpacity = 0.1,
   duration = 4,
   repeatDelay = 0.5,
   ...props
