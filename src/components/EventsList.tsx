@@ -45,12 +45,12 @@ const ReviewCard = ({
 export function EventsList({ data }: { data: Events[] }) {
   return (
     <div className="relative flex py-[3vh] w-full flex-col items-center justify-center overflow-hidden">
-      <Marquee pauseOnHover>
+      <Marquee pauseOnHover={window.innerWidth > 768}>
         {data.map((item) => (
           <ReviewCard key={item.title} {...item} />
         ))}
       </Marquee>
-      <Marquee reverse={true} pauseOnHover>
+      <Marquee reverse={true} pauseOnHover={window.innerWidth > 768}>
         {data.map((review) => (
           <ReviewCard key={review.title} {...review} />
         ))}
