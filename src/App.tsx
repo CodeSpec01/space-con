@@ -15,8 +15,6 @@ function App() {
     const fetchData = async () => {
       try {
         console.log("start fetching data");
-        document.body.style.height = "100vh";
-        document.body.style.overflow = "hidden";
         const response = await fetch(import.meta.env.VITE_API);
         if (!response.ok) {
           throw new Error("Failed to fetch");
@@ -33,14 +31,14 @@ function App() {
 
           ele.classList.add("h-screen");
           ele.style.opacity = "0";
+          document.getElementById("main-content")?.classList.remove("h-screen");
           ele2.style.opacity = "1";
-          document.body.style.height = "auto";
-          document.body.style.overflow = "auto";
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
           
           setTimeout(() => {
             console.log("ran second timeout")
+            document.getElementById("main-content")?.classList.remove("h-screen");
             ele.style.display = "none";
           }, 500);
         }, 2000);
@@ -61,7 +59,7 @@ function App() {
       <Loader />
       <div
         id="main-content"
-        className="transition-all duration-1000 -z-50"
+        className="transition-all duration-1000 overflow-hidden h-screen -z-50"
       >
         <Hero />
         <Timeline />
