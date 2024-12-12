@@ -6,7 +6,6 @@ import Timeline from "./components/Timeline";
 import Events from "./components/Events";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState<Events[] | undefined>(undefined);
