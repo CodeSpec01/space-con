@@ -18,7 +18,7 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<Layout />}>
         <Route path="" element={<App />} />
-        <Route path="admin" element={<Admin />} />
+        <Route path="space-con-secret-admin-panel" element={<Admin />} />
         <Route path="privacy-policy" element={<Privacy />} />
       </Route>
       <Route path="/*" element={<NotFound />} />
