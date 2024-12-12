@@ -15,8 +15,9 @@ function App() {
     const fetchData = async () => {
       try {
         console.log("start fetching data");
-        document.body.style.height = "100vh";
-        document.body.style.overflow = "hidden";
+        // document.body.style.height = "100vh";
+        // document.body.style.overflow = "hidden";
+
         const response = await fetch(import.meta.env.VITE_API);
         if (!response.ok) {
           throw new Error("Failed to fetch");
@@ -25,17 +26,18 @@ function App() {
         setData(data);
         console.log("data fetched");
         console.log(data);
+
         setTimeout(() => {
           setLoading(false);
           console.log("timeout complete");
-          const ele = document.querySelector(".page-loader") as HTMLElement;
-          const ele2 = document.querySelector("#main-content") as HTMLElement;
+          const ele = document.querySelector("#page-loader") as HTMLElement;
+          // const ele2 = document.querySelector("#main-content") as HTMLElement;
 
           ele.classList.add("h-screen");
           ele.style.opacity = "0";
-          ele2.style.opacity = "1";
-          document.body.style.height = "auto";
-          document.body.style.overflow = "auto";
+          // ele2.style.opacity = "1";
+          // document.body.style.height = "auto";
+          // document.body.style.overflow = "auto";
           document.getElementById("spacecon-title")?.click();
           document.getElementById("spacecon-subtitle")?.click();
           
@@ -53,15 +55,15 @@ function App() {
   }, []);
 
   if (loading) {
-    return <Loader />;
+    return <Loader id="loading-state-loader" />;
   }
 
   return (
     <>
-      <Loader />
+      <Loader id="page-loader" />
       <div
         id="main-content"
-        className="transition-all duration-1000 -z-50"
+        className="transition-all duration-1000 overflow-hidden -z-50"
       >
         <Hero />
         <Timeline />
