@@ -129,7 +129,7 @@ const Hero = () => {
               duration={100}
             />
           </h1>
-          <h2 className="font-mono text-white text-[4vw] cursor-text text-center align-middle z-40">
+          <h2 className="font-mono text-white text-[4vw] cursor-text text-center align-middle z-40 px-5 mt-3 bg-black/30 backdrop-blur-sm rounded-full">
             <GradualSpacing
               className="font-orbitron text-[4vw] md:text-[2vw] mt-[1vh] md:mt-0 font-semibold"
               duration={0.5}

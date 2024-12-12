@@ -81,6 +81,7 @@ const Contact = () => {
           <p className="text-center relative text-[4.8vw] md:text-[2.5vw] px-4 py-2 font-orbitron font-extralight">
             Email - nakshatransit@gmail.com
             <br />
+            <br />
             Contact - 8299456620
           </p>
         </MagicCard>

@@ -63,6 +63,9 @@ function App() {
         <Events data={data!} />
         <About />
         <Contact />
+        <div className="text-white font-orbitron text-center w-full py-5">
+          COPYRIGHT &#169; SPACECON 2025
+        </div>
       </div>
     </>
   );
