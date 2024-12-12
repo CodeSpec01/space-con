@@ -20,7 +20,7 @@ const About = () => {
         id="about-earth"
       />
 
-      <div className={``} id="about-content">
+      <div id="about-content">
         <MagicCard
           className="flex flex-col justify-center items-center h-full relative text-center w-[85vw] z-10 border-none bg-transparent backdrop-blur-sm py-10"
           gradientColor="rgba(255, 255, 255, 0.3)"

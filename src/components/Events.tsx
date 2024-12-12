@@ -20,7 +20,7 @@ const Events = ({ data }: { data: Events[] }) => {
       id="events"
     >
       <Meteors number={50} />
-      <h2 className="text-center pt-[12vh] font-orbitron text-[4vw] font-bold ">
+      <h2 className="text-center mt-[12vh] font-orbitron text-[4vw] font-bold ">
         EVENTS
       </h2>
       <VelocityScroll
