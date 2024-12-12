@@ -6,6 +6,7 @@ import Timeline from "./components/Timeline";
 import Events from "./components/Events";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState<Events[] | undefined>(undefined);
@@ -63,9 +64,7 @@ function App() {
         <Events data={data!} />
         <About />
         <Contact />
-        <div className="text-white font-orbitron text-center w-full py-5">
-          COPYRIGHT &#169; SPACECON 2025
-        </div>
+        {/* <Footer /> */}
       </div>
     </>
   );

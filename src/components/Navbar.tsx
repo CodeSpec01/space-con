@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const hamMenuRef = useRef<HTMLDivElement>(null);
@@ -8,11 +9,9 @@ const Navbar = () => {
       <div className="w-[100vw] flex justify-center items-center z-50 fixed md:top-[4vh]">
         <div className="w-full md:w-[90%] flex justify-center m-auto backdrop-blur-md px-[3vw] md:py-[1.5vh] md:rounded-full bg-black/50">
           <div className="w-full md:w-full flex justify-between items-center">
-            <div
+            <Link
+              to={"https://aviralgaur.vercel.app/about"}
               className="flex justify-center items-center gap-[1vw] min-w-20 cursor-pointer"
-              onClick={() =>
-                (window.location.href = "https://aviralgaur.vercel.app/about")
-              }
             >
               <img
                 src="/logo.png"
@@ -22,22 +21,22 @@ const Navbar = () => {
               <span className="text-white text-[2vw] font-orbitron font-bold navbar-text hidden md:block">
                 SPACECON
               </span>
-            </div>
+            </Link>
             <div className="md:block justify-center items-center hidden">
               <ul className="flex gap-[3vw] text-white font-orbitron font-light  text-[1.5vw] ">
-                <a href="#" className="navbar-text">
+                <a href="/#" className="navbar-text">
                   Home
                 </a>
-                <a href="#timeline" className="navbar-text">
+                <a href="/#timeline" className="navbar-text">
                   Timeline
                 </a>
-                <a href="#events" className="navbar-text">
+                <a href="/#events" className="navbar-text">
                   Events
                 </a>
-                <a href="#about" className="navbar-text">
+                <a href="/#about" className="navbar-text">
                   About Us
                 </a>
-                <a href="#contact" className="navbar-text">
+                <a href="/#contact" className="navbar-text">
                   Contact Us
                 </a>
               </ul>
@@ -125,29 +124,29 @@ const Navbar = () => {
                     hamMenuRef.current?.click();
                   }}
                 >
-                  <a href="#" className="navbar-text border-y-2 w-full py-3">
+                  <a href="/#" className="navbar-text border-y-2 w-full py-3">
                     Home
                   </a>
                   <a
-                    href="#timeline"
+                    href="/#timeline"
                     className="navbar-text border-b-2 w-full py-3"
                   >
                     Timeline
                   </a>
                   <a
-                    href="#events"
+                    href="/#events"
                     className="navbar-text border-b-2 w-full py-3"
                   >
                     Events
                   </a>
                   <a
-                    href="#about"
+                    href="/#about"
                     className="navbar-text border-b-2 w-full py-3"
                   >
                     About Us
                   </a>
                   <a
-                    href="#contact"
+                    href="/#contact"
                     className="navbar-text border-b-2 w-full py-3"
                   >
                     Contact Us

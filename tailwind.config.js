@@ -28,6 +28,7 @@ export default {
       },
       fontFamily: {
         orbitron: ["orbitron", "mono"],
+        monospace: ["Share Tech Mono", "mono"],
       },
     },
   },

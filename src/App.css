@@ -4,6 +4,10 @@
   }
 }
 
+#not-found-code {
+  animation: float 3s linear infinite;
+}
+
 #about-earth {
   animation: spin 40s linear infinite;
   opacity: 0.8;
