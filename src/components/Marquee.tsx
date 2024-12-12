@@ -29,7 +29,7 @@ export function Marquee({
         .map((_, i) => (
           <div
             key={i}
-            className={`flex shrink-0 justify-aroundb [gap:var(--gap)] ${
+            className={`flex shrink-0 justify-aroundb custom-arrow-pointer [gap:var(--gap)] ${
               !vertical
                 ? "animate-marquee flex-row"
                 : "animate-marquee-vertical flex-col"

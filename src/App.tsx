@@ -63,7 +63,6 @@ function App() {
         <Events data={data!} />
         <About />
         <Contact />
-        {/* <Footer /> */}
       </div>
     </>
   );

@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="w-full md:w-full flex justify-between items-center">
             <Link
               to={"https://aviralgaur.vercel.app/about"}
-              className="flex justify-center items-center gap-[1vw] min-w-20 cursor-pointer"
+              className="flex justify-center items-center gap-[1vw] min-w-20"
             >
               <img
                 src="/logo.png"
@@ -42,7 +42,7 @@ const Navbar = () => {
               </ul>
             </div>
             {/* Hamburger */}
-            <div className="cursor-pointer relative block md:hidden z-50">
+            <div className="relative block md:hidden z-50">
               <div
                 className="plate plate2 invert"
                 ref={hamMenuRef}

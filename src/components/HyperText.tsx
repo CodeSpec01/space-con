@@ -62,7 +62,7 @@ export function HyperText({
 
   return (
     <div
-      className="flex scale-100 cursor-default pointer-events-none overflow-hidden py-2"
+      className="flex scale-100 pointer-events-none overflow-hidden py-2"
       id="spacecon-title"
       onClick={triggerAnimation}
     >

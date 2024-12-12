@@ -1,42 +1,52 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SPACECON</title>
-    <style>
 
-      body, html {
-        cursor: url("/cursor.svg"), auto;
-        background: #111;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPACECON</title>
+  <style>
+    body {
+      background: #111;
+    }
 
-      ::selection{
-        background-color: rgb(78, 133, 132);
-      }
+    * {
+      cursor: url("/public/cursor.png"), auto;
+    }
 
-      html{
-        scroll-behavior: smooth;
-      }
+    a,
+    button,
+    link {
+      cursor: url("public/pointer.png"), pointer;
+    }
 
-      html::-webkit-scrollbar{
-        width: 0.4vw;
-      }
+    ::selection {
+      background-color: rgb(78, 133, 132);
+    }
 
-      html::-webkit-scrollbar-thumb{
-        background-color: white;
-        border-radius: 20px;
-      }
+    html {
+      scroll-behavior: smooth;
+    }
 
-      html::-webkit-scrollbar-track{
-        background-color: black;
-      }
+    html::-webkit-scrollbar {
+      width: 0.4vw;
+    }
 
-    </style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    html::-webkit-scrollbar-thumb {
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    html::-webkit-scrollbar-track {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

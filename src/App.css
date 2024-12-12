@@ -4,6 +4,10 @@
   }
 }
 
+.custom-arrow-pointer {
+  cursor: url("/public/pointer.png"), pointer !important;
+}
+
 #not-found-code {
   animation: float 3s linear infinite;
 }
