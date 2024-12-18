@@ -8,13 +8,12 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 function App() {
-  const [data, setData] = useState<Events[] | undefined>(undefined);
+  const [data, setData] = useState<Events[] | undefined>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-
         const response = await fetch(import.meta.env.VITE_API);
         if (!response.ok) {
           throw new Error("Failed to fetch");
@@ -51,8 +50,8 @@ function App() {
       >
         <Hero />
         <Timeline />
-        <Events data={data!} />
-      <About />
+        {loading ? <></> : <Events data={data!} />}
+        <About />
         <Contact />
       </div>
     </>

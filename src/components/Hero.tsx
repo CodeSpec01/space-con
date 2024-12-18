@@ -4,6 +4,7 @@ import { GradualSpacing } from "./FadeText";
 import DownArrow from "./DownArrow";
 
 const Hero = () => {
+
   useEffect(() => {
     const parallax_el = document.querySelectorAll(".parallax");
 
@@ -45,6 +46,18 @@ const Hero = () => {
         <img
           className="absolute h-full w-full bg-center object-cover"
           src="/hero-bg.png"
+          onLoad={() => {
+            const dummyImageArray = document.querySelectorAll(
+              ".dummy-image"
+            ) as NodeListOf<HTMLElement>;
+            dummyImageArray.forEach((img) => {
+              img.style.display = "none";
+            });
+          }}
+        ></img>
+        <img
+          className="dummy-image absolute h-full w-full bg-center object-cover"
+          src="/hero-bg-small.png"
         ></img>
         <div className="h-[100svh] w-full absolute top-0 left-0 vignette z-40"></div>
         <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center ">
@@ -56,11 +69,25 @@ const Hero = () => {
             src="/clouds-1.png"
           ></img>
           <img
+            data-speedx={"0.05"}
+            data-speedy={"0.05"}
+            data-speedz={"0"}
+            className="dummy-image parallax h-full w-full absolute object-cover z-0"
+            src="/clouds-1-small.png"
+          ></img>
+          <img
             data-speedx={"-0.05"}
             data-speedy={"0"}
             data-speedz={"0"}
             className="parallax z-10 w-full h-full absolute object-cover"
             src="/cliff.png"
+          ></img>
+          <img
+            data-speedx={"-0.05"}
+            data-speedy={"0"}
+            data-speedz={"0"}
+            className="dummy-image parallax z-10 w-full h-full absolute object-cover"
+            src="/cliff-small.png"
           ></img>
           <img
             data-speedx={"0.04"}
