@@ -9,7 +9,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Layout.tsx";
-import Admin from "./components/Admin.tsx";
 import Privacy from "./components/Privacy.tsx";
 import NotFound from "./components/NotFound.tsx";
 
@@ -18,7 +17,6 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<Layout />}>
         <Route path="" element={<App />} />
-        <Route path="space-con-secret-admin-panel" element={<Admin />} />
         <Route path="privacy-policy" element={<Privacy />} />
       </Route>
       <Route path="/*" element={<NotFound />} />

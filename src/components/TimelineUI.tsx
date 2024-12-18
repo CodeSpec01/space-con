@@ -39,13 +39,13 @@ export const TimelineUI = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="relative flex flex-col justify-start pt-10 md:pt-40 md:gap-10 font-orbitron"
+            className="relative flex flex-col justify-start pt-10 md:pt-40 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-4 md:left-4 w-10 rounded-full bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-800 border border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#6356fd] ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#6356fd]">
                 {item.title}
               </h3>
             </div>

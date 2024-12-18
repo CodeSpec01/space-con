@@ -120,19 +120,19 @@ const Hero = () => {
           ></img>
         </div>
         <div className="h-screen w-full absolute top-0 left-0 flex justify-center items-center flex-col pb-[35vh] md:pb-[20vh]">
-          <h1 className="font-orbitron text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
+          <h1 className=" text-white text-[14vw] md:text-[10vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
             <HyperText
-              text="SPACECON"
-              className="font-orbitron pointer-events-none"
+              text="SpaceCon"
+              className="tracking-wide pointer-events-none"
               duration={100}
             />
           </h1>
           <h2 className="font-mono text-white text-[4vw] text-center align-middle z-40 px-5 mt-3 bg-black/30 backdrop-blur-sm rounded-full">
             <GradualSpacing
-              className="font-orbitron text-[4vw] md:text-[2vw] py-[0.5vh] md:mt-0 font-semibold"
+              className=" text-[4vw] md:text-[2vw] py-[0.5vh] md:mt-0 tracking-tighter"
               duration={0.5}
               delayMultiple={0.1}
-              text="NAKSHATRA x TDS"
+              text="Nakshatra x TDS"
             />
           </h2>
         </div>

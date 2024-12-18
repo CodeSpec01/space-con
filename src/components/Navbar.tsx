@@ -18,18 +18,18 @@ const Navbar = () => {
                 alt="Logo"
                 className="w-[8vw] md:w-[3vw] z-50 "
               />
-              <span className="text-white text-[2vw] font-orbitron font-bold navbar-text hidden md:block">
-                SPACECON
+              <span className="text-white text-[2vw] navbar-text hidden md:block">
+                SpaceCon
               </span>
             </Link>
             <div className="md:block justify-center items-center hidden">
-              <ul className="flex gap-[3vw] text-white font-orbitron font-light  text-[1.5vw] ">
+              <ul className="flex gap-[3vw] text-white  font-light  text-[1.5vw] ">
                 <a href="/#" className="navbar-text">
                   Home
                 </a>
-                <a href="/#timeline" className="navbar-text">
+                {/* <a href="/#timeline" className="navbar-text">
                   Timeline
-                </a>
+                </a> */}
                 <a href="/#events" className="navbar-text">
                   Events
                 </a>
@@ -111,7 +111,7 @@ const Navbar = () => {
             >
               <div className="flex flex-col items-center gap-[10vh] top-[20vh] relative ">
                 <div>
-                  <h1 className="font-orbitron text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
+                  <h1 className=" text-white text-[12vw] md:text-[8vw] text-center align-middle border-b-2 md:leading-[9vw] z-40 ">
                     <strong>SPACECON</strong>
                   </h1>
                   <h2 className="font-mono text-white text-[4vw]  text-center align-middle z-40">
@@ -119,7 +119,7 @@ const Navbar = () => {
                   </h2>
                 </div>
                 <div
-                  className="flex flex-col w-full text-white font-orbitron font-light text-[4vw] text-center items-center justify-center "
+                  className="flex flex-col w-full text-white  font-light text-[4vw] text-center items-center justify-center "
                   onClick={() => {
                     hamMenuRef.current?.click();
                   }}
@@ -127,12 +127,12 @@ const Navbar = () => {
                   <a href="/#" className="navbar-text border-y-2 w-full py-3">
                     Home
                   </a>
-                  <a
+                  {/* <a
                     href="/#timeline"
                     className="navbar-text border-b-2 w-full py-3"
                   >
                     Timeline
-                  </a>
+                  </a> */}
                   <a
                     href="/#events"
                     className="navbar-text border-b-2 w-full py-3"

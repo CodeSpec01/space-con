@@ -12,7 +12,7 @@ const wordArray = [
     className: "text-[#f0c674] text-[1.5vw] font-bold font-orbitron",
   },
   {
-    text: "HTTP 403 Forbidden",
+    text: "HTTP 404 Not Found",
     className:
       "text-[#8abeb7] text-[1.2vw] font-light font-monospace leading-[1.2]",
   },
@@ -30,7 +30,7 @@ const wordArray = [
     className: "text-[#f0c674] text-[1.5vw] font-bold font-orbitron",
   },
   {
-    text: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    text: "The page you are looking for might have been removed, had its name changed, is temporarily unavailable, or doesn't exist. Please recheck the url.",
     className:
       "text-[#8abeb7] text-[1.2vw] font-light font-monospace leading-[1.2] text-wrap",
   },

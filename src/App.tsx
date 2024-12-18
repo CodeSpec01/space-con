@@ -14,7 +14,6 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log("start fetching data");
 
         const response = await fetch(import.meta.env.VITE_API);
         if (!response.ok) {
@@ -22,21 +21,13 @@ function App() {
         }
         const data = await response.json();
         setData(data);
-        console.log("data fetched");
-        console.log(data);
 
         setTimeout(() => {
           setLoading(false);
-          console.log("timeout complete");
           setTimeout(() => {
             document.getElementById("page-loader")?.click();
-
-            // loader.style.opacity = "0";
             document.getElementById("spacecon-title")?.click();
             document.getElementById("spacecon-subtitle")?.click();
-
-            console.log("ran second timeout");
-            // loader.style.display = "none";
           }, 1000);
         }, 1000);
       } catch (error) {
@@ -61,7 +52,7 @@ function App() {
         <Hero />
         <Timeline />
         <Events data={data!} />
-        <About />
+      <About />
         <Contact />
       </div>
     </>

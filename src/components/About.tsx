@@ -25,29 +25,29 @@ const About = () => {
           className="flex flex-col justify-center items-center h-full relative text-center w-[85vw] z-10 border-none bg-transparent backdrop-blur-sm py-10"
           gradientColor="rgba(255, 255, 255, 0.3)"
         >
-          <h2 className="text-center relative text-[9vw] md:text-[5vw] font-orbitron font-semibold pb-[5vh]">
+          <h2 className="text-center relative text-[11vw] md:text-[7vw] tracking-wider font-semibold pb-[5vh]">
             ABOUT US
           </h2>
-          <p className="font-orbitron font-extralight text-[3.5vw] md:text-[1.5vw]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            earum ipsum minima nam laboriosam iste distinctio sunt, quibusdam
-            quos quisquam. Officia explicabo facilis vero accusamus soluta,
-            dignissimos optio! Nihil dolore debitis laborum sit quas, aliquam,
-            accusantium omnis ipsa, animi quae soluta dolores illum? Numquam
-            doloribus deserunt maiores, totam asperiores placeat neque
-            exercitationem expedita minus laborum provident ducimus veritatis
-            reprehenderit accusantium et? Minima recusandae rem delectus autem.
-            Facilis tempore rerum officiis cupiditate deserunt, possimus ipsa
-            pariatur quod distinctio velit iure esse facere, error
-            exercitationem quia earum assumenda ab natus, doloribus inventore
-            provident nostrum nobis. Eligendi quisquam, ab numquam maiores
-            dolorum exercitationem!
+          <p className=" font-extralight text-[3.5vw] md:text-[1.5vw]">
+            At SpaceCon&#39;25, our diverse events, hackathons, ideathons, seminars,
+            workshops, panel discussions, and guest lectures will focus on
+            innovation in space science and technology. Participants will gain
+            hands-on experience with scientific concepts, enhancing their
+            understanding of complex theories through practical application.
+            <br />
+            <br />
+            This conclave will encourage collaboration, networking, and
+            teamwork, essential for academic and professional growth. By
+            blending science with imagination, SpaceCon supports NSUT&#39;s vision
+            of producing well-rounded thinkers prepared to make meaningful
+            societal contributions, demonstrating our commitment to advancing
+            STEM education.
           </p>
         </MagicCard>
       </div>
       <ShootingStars />
-          <StarsBackground />
-          <DownArrow href="#contact" />
+      <StarsBackground />
+      <DownArrow href="#contact" />
     </div>
   );
 };

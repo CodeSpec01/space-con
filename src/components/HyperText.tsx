@@ -70,10 +70,10 @@ export function HyperText({
         {displayText.map((letter, i) => (
           <motion.span
             key={i}
-            className={`font-mono ${letter === " " ? "w-3" : ""} ${className}`}
+            className={`${letter === " " ? "w-3" : ""} ${className}`}
             {...framerProps}
           >
-            {letter.toUpperCase()}
+            {letter}
           </motion.span>
         ))}
       </AnimatePresence>

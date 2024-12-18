@@ -16,24 +16,27 @@ type Events = {
 const Events = ({ data }: { data: Events[] }) => {
   return (
     <div
-      className="relative min-h-screen bg-[#111] text-white flex flex-col items-center"
+      className="relative bg-[#111] text-white flex flex-col items-center"
       id="events"
     >
       <Meteors number={50} />
-      <h2 className="text-center mt-[12vh] font-orbitron text-[4vw] font-bold ">
+      <h2 className="text-center mt-[12vh] text-[8vw] md:text-[4vw] tracking-wider font-bold ">
         EVENTS
       </h2>
       <VelocityScroll
-        text="SPACECON EVENTS ."
+        text="SpaceCon Events ."
         default_velocity={2}
-        className="font-orbitron text-center font-bold tracking-[-0.02em]text-white text-[3vw] leading-[5vh] bg-[#2f2f2f] py-1"
+        className=" text-center font-bold tracking-[-0.02em]text-white text-[5vw] leading-[5vh] bg-[#2f2f2f] py-4"
       />
       <VelocityScroll
-        text="x NAKSHATRA x TDS"
+        text="x Nakshatra x TDS"
         default_velocity={-4}
-        className="font-orbitron text-center font-bold tracking-[-0.02em]text-white text-[3vw] leading-[5vh] bg-[#2f2f2f] py-1"
+        className=" text-center font-bold tracking-[-0.02em]text-white text-[5vw] leading-[5vh] bg-[#2f2f2f] py-6"
       />
-      <EventsList data={data} />
+      <h3 className="py-[8vh] text-[8vw] text-[#6356fd] ">Coming Soon</h3>
+      <div className="hidden">
+        <EventsList data={data} />
+      </div>
       <DownArrow href="#about" className="relative pt-4" />
     </div>
   );

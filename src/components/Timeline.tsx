@@ -205,16 +205,21 @@ const data = [
 ];
 
 const Timeline = () => {
+
+  return (
+    <div id="timeline"></div>
+  )
+  
   return (
     <div
-      className="z-10 relative min-h-screen w-full bg-[#111] text-white flex flex-col"
+      className="z-10 relative md:min-h-screen w-full bg-[#111] text-white flex flex-col"
       id="timeline"
     >
-      <h2 className="text-center relative mt-[13vh] text-[5vw] font-orbitron font-semibold ">
+      <h2 className="text-center relative mt-[13vh] text-[7vw] tracking-wider font-semibold ">
         TIMELINE
       </h2>
 
-      <DotPattern />
+      <DotPattern className="opacity-50" />
 
       <div className="w-full relative">
         <TimelineUI data={data} />

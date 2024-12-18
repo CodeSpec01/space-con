@@ -6,7 +6,6 @@ const Loader = ({ id }: { id?: string }) => {
       className="loader-bg h-screen w-full flex flex-col gap-[5vh] transition-all duration-[1s] absolute overflow-hidden page-loader pointer-events-none"
       id={id}
       onClick={(e) => {
-        console.log("clicked loader")
         e.currentTarget.style.opacity = "0";
         setTimeout(() => {
           e.currentTarget.style.display = "none";

@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+  font-family: "coolvetica";
+  src: url('./fonts/coolvetica.otf'), 
+  /* local("coolvetica"), */
+}
+
+body {
+  font-family: 'coolvetica' !important;
+  letter-spacing: 1px;
+}
