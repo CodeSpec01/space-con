@@ -28,7 +28,7 @@ const About = () => {
           <h2 className="text-center relative text-[11vw] md:text-[7vw] tracking-wider font-semibold pb-[5vh]">
             ABOUT US
           </h2>
-          <p className=" font-extralight text-[3.5vw] md:text-[1.5vw]">
+          <p className=" font-extralight px-5 text-[3.5vw] md:text-[1.5vw]">
             At SpaceCon&#39;25, our diverse events, hackathons, ideathons, seminars,
             workshops, panel discussions, and guest lectures will focus on
             innovation in space science and technology. Participants will gain
