@@ -46,7 +46,7 @@ function App() {
       <Loader id="page-loader" />
       <div
         id="main-content"
-        className="transition-all duration-1000 overflow-hidden -z-50"
+        className="transition-all duration-1000 -z-50 overflow-x-hidden "
       >
         <Hero />
         <Timeline />

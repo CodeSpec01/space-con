@@ -11,6 +11,7 @@ import {
 import Layout from "./Layout.tsx";
 import Privacy from "./components/Privacy.tsx";
 import NotFound from "./components/NotFound.tsx";
+import EventsPage from "./components/EventsPage.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Layout />}>
         <Route path="" element={<App />} />
         <Route path="privacy-policy" element={<Privacy />} />
+        <Route path="events" element={<EventsPage />} />
       </Route>
       <Route path="/*" element={<NotFound />} />
     </>
