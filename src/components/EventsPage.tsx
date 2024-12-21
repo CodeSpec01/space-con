@@ -1,13 +1,9 @@
 import { useEffect, useState } from "react";
-import "./App.css";
-import Hero from "./components/Hero";
-import Loader from "./components/Loader";
-import Timeline from "./components/Timeline";
-import Events from "./components/Events";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Events from "./Events";
+import Loader from "./Loader";
+import Card from "./Card";
 
-function App() {
+const EventsPage = () => {
   const [data, setData] = useState<Events[] | undefined>([]);
   const [loading, setLoading] = useState(true);
 
@@ -48,14 +44,15 @@ function App() {
         id="main-content"
         className="transition-all duration-1000 -z-50 overflow-x-hidden "
       >
-        <Hero />
-        <Timeline />
-        {loading ? <></> : <Events data={data!} />}
-        <About />
-        <Contact />
+        <h2 className="text-white text-center relative mt-[10vh] md:mt-[13vh] text-[12vw] md:text-[7vw] tracking-wider font-semibold ">
+          All Events
+        </h2>
+        <div className="w-[95%] flex flex-wrap m-auto md:justify-between justify-center gap-y-10 text-white ">{data?.map((event, i) => (
+          <Card className="w-[90vw]" data={event} key={i} />
+        ))}</div>
       </div>
     </>
   );
-}
+};
 
-export default App;
+export default EventsPage;

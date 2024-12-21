@@ -43,6 +43,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-screen w-full">
+        
         <img
           className="absolute h-full w-full bg-center object-cover"
           src="/hero-bg.png"
