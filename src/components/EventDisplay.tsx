@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Card from "./Card";
-import Events from "./Events";
+import { mainEvents } from "../constants";
 
-const EventDisplay = ({ data }: { data: Events[] }) => {
+const EventDisplay = () => {
   const [activeEle, setActiveEle] = useState(1);
 
   return (
@@ -13,7 +13,7 @@ const EventDisplay = ({ data }: { data: Events[] }) => {
           if (activeEle > 0) {
             setActiveEle(activeEle - 1);
           } else {
-            setActiveEle(data.length - 1);
+            setActiveEle(mainEvents.length - 1);
           }
         }}
       >
@@ -24,8 +24,9 @@ const EventDisplay = ({ data }: { data: Events[] }) => {
         />
       </button>
       <div className="relative flex justify-center gap-[1vw] items-center ">
-        {data.map((event, i) => (
+        {mainEvents.map((event, i) => (
           <div
+            key={i}
             className={`${
               activeEle === i ? "relative" : "absolute"
             } top-0 transition-all duration-500 ease-in-out`}
@@ -38,7 +39,7 @@ const EventDisplay = ({ data }: { data: Events[] }) => {
               opacity: `${
                 activeEle === i ? 1 : 0.09 - Math.abs(activeEle - i) / 100
               }`,
-              // scale: `${activeEle === i ? "1" : Math.abs(activeEle - i) * 0.8}`, 
+              // scale: `${activeEle === i ? "1" : Math.abs(activeEle - i) * 0.8}`,
               //  activeele = 5, i = 5, 5-0 0.5 5-1 0.4 5-2 0.3 5-3 0.2 5-4 0.1 5-5 0 5-6 0.1 5-7 0.2 5-8 0.3 5-9 0.4 5-10 0.5
               //   transform: `${activeEle === i ? "scale(1.1)" : "scale(1)"}`,
             }}
@@ -50,7 +51,7 @@ const EventDisplay = ({ data }: { data: Events[] }) => {
       <button
         className="custom-arrow-pointer z-40 absolute top-[30vh] right-[2%]"
         onClick={() => {
-          if (activeEle < data.length - 1) {
+          if (activeEle < mainEvents.length - 1) {
             setActiveEle(activeEle + 1);
           } else {
             setActiveEle(0);
