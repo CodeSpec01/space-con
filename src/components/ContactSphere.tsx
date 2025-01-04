@@ -7,6 +7,11 @@ import {
   SimpleIcon,
 } from "react-icon-cloud";
 
+export type DynamicCloudProps = {
+  iconSlugs?: string[]; // Made iconSlugs optional
+  imageArray?: string[];
+};
+
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
     style: {
@@ -14,7 +19,6 @@ export const cloudProps: Omit<ICloud, "children"> = {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
-      height: "100%",
       paddingTop: 40,
     },
   },
@@ -23,19 +27,23 @@ export const cloudProps: Omit<ICloud, "children"> = {
     depth: 1,
     wheelZoom: false,
     imageScale: 2,
-    activeCursor: "url('/cursor.png')",
+    activeCursor: "default",
     tooltip: "native",
     initial: [0.1, -0.1],
     clickToFront: 500,
     tooltipDelay: 0,
     outlineColour: "#0000",
-    maxSpeed: 0.02,
+    maxSpeed: 0.04,
     minSpeed: 0.02,
-    // dragControl: false,
+    dragControl: false,
   },
 };
 
-export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
+export const renderCustomIcon = (
+  icon: SimpleIcon,
+  theme: string,
+  imageArray?: string[]
+) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
   const minContrastRatio = theme === "dark" ? 2 : 1.2;
@@ -50,22 +58,24 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
       href: undefined,
       target: undefined,
       rel: undefined,
-      onClick: (e: any) => e.preventDefault(),
+      onClick: (e: React.MouseEvent<HTMLAnchorElement>) => e.preventDefault(),
     },
   });
 };
 
-export type DynamicCloudProps = {
-  iconSlugs: string[];
-};
-
 type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
 
-export function ContactSphere({ iconSlugs }: DynamicCloudProps) {
+export function IconCloud({
+  iconSlugs = [], // Default to an empty array if not provided
+  imageArray,
+}: DynamicCloudProps) {
   const [data, setData] = useState<IconData | null>(null);
 
   useEffect(() => {
-    fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
+    if (iconSlugs.length > 0) {
+      // Check if iconSlugs is not empty
+      fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
+    }
   }, [iconSlugs]);
 
   const renderedIcons = useMemo(() => {
@@ -79,7 +89,18 @@ export function ContactSphere({ iconSlugs }: DynamicCloudProps) {
   return (
     // @ts-ignore
     <Cloud {...cloudProps}>
-      <>{renderedIcons}</>
+      <>
+        <>{renderedIcons}</>
+        {imageArray &&
+          imageArray.length > 0 &&
+          imageArray.map((image, index) => {
+            return (
+              <a key={index} href="#" onClick={(e) => e.preventDefault()}>
+                <img height="42" width="42" alt="A globe" src={image} />
+              </a>
+            );
+          })}
+      </>
     </Cloud>
   );
 }

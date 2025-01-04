@@ -1,7 +1,7 @@
 import { MagicCard } from "./AboutCard";
 import { ContactDock } from "./ContactDock";
 import { ContactGrid } from "./ContactGrid";
-import { ContactSphere } from "./ContactSphere";
+import { IconCloud } from "./ContactSphere";
 
 const socials = [
   {
@@ -50,38 +50,72 @@ const socials = [
   },
 ];
 
-const slugs = [
-  "nasa",
-  "republicofgamers",
-  "SpaceX",
-  "alienware",
-  "icloud",
-  "playstation",
-  "starship",
-  "stardock",
-  "spaceship",
-  "typescript",
-  "javascript",
-  "dart",
-  "java",
-  "react",
-  "flutter",
-  "android",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "express",
-  "nextdotjs",
-  "amazonaws",
-  "postgresql",
-  "nginx",
-  "vercel",
-  "docker",
-  "git",
-  "github",
-  "gitlab",
-  "visualstudiocode",
-  "figma",
+// const slugs = [
+//   "nasa",
+//   "republicofgamers",
+//   "SpaceX",
+//   "alienware",
+//   "icloud",
+//   "playstation",
+//   "starship",
+//   "stardock",
+//   "spaceship",
+//   "typescript",
+//   "javascript",
+//   "dart",
+//   "java",
+//   "react",
+//   "flutter",
+//   "android",
+//   "html5",
+//   "css3",
+//   "nodedotjs",
+//   "express",
+//   "nextdotjs",
+//   "amazonaws",
+//   "postgresql",
+//   "nginx",
+//   "vercel",
+//   "docker",
+//   "git",
+//   "github",
+//   "gitlab",
+//   "visualstudiocode",
+//   "figma",
+// ];
+
+const imageArray = [
+  "/icons/alienware.svg",
+  "/icons/amazonaws.svg",
+  "/icons/android.svg",
+  "/icons/css3.svg",
+  "/icons/dart.svg",
+  "/icons/docker.svg",
+  "/icons/express.svg",
+  "/icons/figma.svg",
+  "/icons/flutter.svg",
+  "/icons/git.svg",
+  "/icons/github.svg",
+  "/icons/gitlab.svg",
+  "/icons/html5.svg",
+  "/icons/icloud.svg",
+  "/icons/java.svg",
+  "/icons/javascript.svg",
+  "/icons/nasa.svg",
+  "/icons/nextdotjs.svg",
+  "/icons/nginx.svg",
+  "/icons/nodedotjs.svg",
+  "/icons/playstation.svg",
+  "/icons/postgresql.svg",
+  "/icons/react.svg",
+  "/icons/republicofgamers.svg",
+  "/icons/spaceship.svg",
+  "/icons/spacex.svg",
+  "/icons/stardock.svg",
+  "/icons/starship.svg",
+  "/icons/typescript.svg",
+  "/icons/vercel.svg",
+  "/icons/visualstudiocode.svg",
 ];
 
 const Contact = () => {
@@ -130,11 +164,6 @@ const Contact = () => {
             <p>Nikhil Kumar -</p>
             <p>88103 13021</p>
           </div>
-          <br />
-          <div className="w-full m-auto text-[5vw] md:text-[1.5vw] flex justify-around items-center">
-            <p>Ayush Jha -</p>
-            <p>88609 59917</p>
-          </div>
         </MagicCard>
         <img
           src="/computer.png"
@@ -143,7 +172,7 @@ const Contact = () => {
         />
       </div>
       <div className="absolute scale-[1.2]">
-        <ContactSphere iconSlugs={slugs} />
+        <IconCloud  imageArray={imageArray} />
       </div>
       <ContactDock
         items={socials}
