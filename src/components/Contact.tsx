@@ -13,7 +13,7 @@ const socials = [
         className="invert custom-arrow-pointer"
       />
     ),
-    href: "https://www.instagram.com/hydr0gen_001/",
+    href: "https://www.instagram.com/spacecon_nsut/",
   },
   {
     title: "LinkedIn",
@@ -24,7 +24,7 @@ const socials = [
         className="invert custom-arrow-pointer"
       />
     ),
-    href: "https://www.instagram.com/aviral._.gaur/",
+    href: "https://www.linkedin.com/company/spaceconnsut/",
   },
   {
     title: "Unstop",
@@ -35,7 +35,7 @@ const socials = [
         className="invert-0 custom-arrow-pointer"
       />
     ),
-    href: "https://www.instagram.com/hydr0gen_001/",
+    href: "https://aviralgaur.vercel.app/",
   },
   {
     title: "Gmail",

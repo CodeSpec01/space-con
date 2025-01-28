@@ -165,7 +165,7 @@ const Hero = () => {
               className=" text-[4vw] md:text-[2vw] py-[0.5vh] md:mt-0 tracking-tighter"
               duration={0.4}
               // delayMultiple={0.1}
-              text="23 - 25 JAN, 2025"
+              text="21 - 23 FEB, 2025"
             />
           </h2>
           <h2 className="font-mono text-white text-[4vw] text-center align-middle z-40 px-5 mt-3 bg-black/30 backdrop-blur-sm rounded-full">
