@@ -15,8 +15,8 @@ const Card = ({ data, className }: { data: Event, className?: string }) => {
           className="rounded-lg w-full object-cover m-auto "
         />
       </div>
-      <p className="font-extralight">{data.description}</p>
-      <div className="md:text-[1.2vw] text-[2.5vw] ">
+      <p className="font-extralight text-[3.5vw] md:text-[1vw]">{data.description}</p>
+      <div className="md:text-[1.2vw] text-[5vw] ">
         <span>
           <strong className="text-[#6356fd]">DATE :</strong> {data.date}
         </span>

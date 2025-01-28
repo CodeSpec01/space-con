@@ -35,7 +35,7 @@ const socials = [
         className="invert-0 custom-arrow-pointer"
       />
     ),
-    href: "https://aviralgaur.vercel.app/",
+    href: "https://unstop.com/u/spacensu27031/",
   },
   {
     title: "Gmail",

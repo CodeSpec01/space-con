@@ -39,9 +39,6 @@ const EventDisplay = () => {
               opacity: `${
                 activeEle === i ? 1 : 0.09 - Math.abs(activeEle - i) / 100
               }`,
-              // scale: `${activeEle === i ? "1" : Math.abs(activeEle - i) * 0.8}`,
-              //  activeele = 5, i = 5, 5-0 0.5 5-1 0.4 5-2 0.3 5-3 0.2 5-4 0.1 5-5 0 5-6 0.1 5-7 0.2 5-8 0.3 5-9 0.4 5-10 0.5
-              //   transform: `${activeEle === i ? "scale(1.1)" : "scale(1)"}`,
             }}
           >
             <Card data={event} key={i} />
