@@ -15,7 +15,7 @@ export const mainEvents: Event[] = [
   {
     name: "CTRL + ALT + HACK",
     description:
-      "The Hackathon at SpaceCon is an immersive and dynamic 24-hour innovation marathon, designed to bring together brilliant minds from diverse backgrounds. Participants collaborate to solve real-world problems in the realm of space technology and its applications. Hosted by the Space Society Nakshatra and the Debugging Society of NSUT, the event challenges participants to ideate, design, and prototype solutions using cutting-edge technologies such on three track : Generative AI, Machine Learning (ML), and Web 3.0/Blockchain.",
+      "The Hackathon at SpaceCon is an immersive and dynamic 24-hour innovation marathon, designed to bring together brilliant minds and challenge them to ideate, design and prototype solutions using cutting edge Generative AI, Machine learning and Web 3.0/Blockchain. Participants will have to collaborate to solve real-world problems in the realm of space technology and its application.",
     venue: "Coming Soon",
     date: "2nd day spacecon, 24 jan",
     startTime: "Coming Soon",
@@ -29,7 +29,7 @@ export const mainEvents: Event[] = [
   {
     name: "SkyScape",
     description:
-      "Astrophotography is an event that invites participants to capture the beauty of celestial wonders, such as the Milky Way, star trails, or the Moon. Whether you're using a mobile phone, a professional camera, or even a telescope, this event provides an excellent opportunity for everyone to showcase their unique perspective on the night sky.",
+      "Astrophotography is an event that invites participants to capture the beauty of the celestial wonders. Whether you're using a mobile phone , a professional camera or a telescope, this event provides a wonderful opportunity for everyone to showcase their photography skills.",
     venue: "Coming Soon",
     date: "6th January",
     startTime: "Coming Soon",
@@ -46,7 +46,7 @@ export const allEvents: Event[] = [
   {
     name: "CTRL + ALT + HACK",
     description:
-      "The Hackathon at SpaceCon is an immersive and dynamic 24-hour innovation marathon, designed to bring together brilliant minds from diverse backgrounds. Participants collaborate to solve real-world problems in the realm of space technology and its applications. Hosted by the Space Society Nakshatra and the Debugging Society of NSUT, the event challenges participants to ideate, design, and prototype solutions using cutting-edge technologies such on three track : Generative AI, Machine Learning (ML), and Web 3.0/Blockchain.",
+      "The Hackathon at SpaceCon is an immersive and dynamic 24-hour innovation marathon, designed to bring together brilliant minds and challenge them to ideate, design and prototype solutions using cutting edge Generative AI, Machine learning and Web 3.0/Blockchain. Participants will have to collaborate to solve real-world problems in the realm of space technology and its application.",
     venue: "Coming Soon",
     date: "2nd day spacecon, 24 jan",
     startTime: "Coming Soon",
@@ -60,7 +60,7 @@ export const allEvents: Event[] = [
   {
     name: "SkyScape",
     description:
-      "Astrophotography is an event that invites participants to capture the beauty of celestial wonders, such as the Milky Way, star trails, or the Moon. Whether you're using a mobile phone, a professional camera, or even a telescope, this event provides an excellent opportunity for everyone to showcase their unique perspective on the night sky.",
+      "Astrophotography is an event that invites participants to capture the beauty of the celestial wonders. Whether you're using a mobile phone , a professional camera or a telescope, this event provides a wonderful opportunity for everyone to showcase their photography skills.",
     venue: "Coming Soon",
     date: "6th January",
     startTime: "Coming Soon",
