@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="w-full md:w-[90%] flex justify-center m-auto backdrop-blur-md px-[3vw] md:py-[1.5vh] md:rounded-full bg-black/50">
           <div className="w-full md:w-full flex justify-between items-center">
             <Link
-              to={"https://aviralgaur.vercel.app/about"}
+              to={"https://spacecon.tech"}
               className="flex justify-center items-center gap-[1vw] min-w-20"
             >
               <img

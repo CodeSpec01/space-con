@@ -1,4 +1,5 @@
 import { Event } from "../constants";
+import GlowingButton from "./GlowingButton";
 
 const Card = ({ data, className }: { data?: Event; className?: string }) => {
   return (
@@ -12,7 +13,7 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
         <img
           src={data!.image}
           alt="Event Image"
-          className="rounded-lg w-full object-cover m-auto "
+          className={"rounded-lg w-full object-cover m-auto"}
         />
       </div>
       <p className="font-extralight text-[3.5vw] md:text-[1vw]">
@@ -54,15 +55,25 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
             &#8599;
           </span>
         </a>
-        <a
-          href={data!.link}
-          className="flex items-center gap-2 bg-black/50 hover:bg-[#333333] w-fit p-3 rounded-xl py-2 transition-all duration-300"
-        >
-          <span className="custom-arrow-pointer">Register Now!</span>
-          <span className="custom-arrow-pointer bg-gray-800 rounded-full w-7 h-7 flex items-center justify-center text-center invert ">
-            &#8599;
-          </span>
-        </a>
+        {data?.comingSoon ? (
+          <>
+            <div className="cursor-not-allowed flex items-center gap-2 bg-black/50 hover:bg-[#333333] w-fit p-3 rounded-xl py-2 transition-all duration-300">
+              <span className="cursor-not-allowed">Register Now!</span>
+              <span className="cursor-not-allowed bg-gray-800 rounded-full w-7 h-7 flex items-center justify-center text-center invert ">
+                &#8599;
+              </span>
+            </div>
+          </>
+        ) : (
+          <>
+            <a
+              href={data!.link}
+              className="flex items-center gap-2 w-fit p-3 rounded-xl py-2 transition-all duration-300"
+            >
+              <GlowingButton text="Register Now!" />
+            </a>
+          </>
+        )}
       </div>
     </div>
   );

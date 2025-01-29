@@ -117,6 +117,11 @@ const Contact = () => {
             <span className="text-[#6356fd]">Contacts</span>
           </p>
           <div className="w-full m-auto text-[5vw] md:text-[1.5vw] flex justify-around items-center">
+            <p>Nikhil Kumar -</p>
+            <p>88103 13021</p>
+          </div>
+          <br />
+          <div className="w-full m-auto text-[5vw] md:text-[1.5vw] flex justify-around items-center">
             <p>Avantika Ambra -</p>
             <p>99115 61128</p>
           </div>
@@ -124,11 +129,6 @@ const Contact = () => {
           <div className="w-full m-auto text-[5vw] md:text-[1.5vw] flex justify-around items-center">
             <p>Omkar Ahuja -</p>
             <p>97111 06833</p>
-          </div>
-          <br />
-          <div className="w-full m-auto text-[5vw] md:text-[1.5vw] flex justify-around items-center">
-            <p>Nikhil Kumar -</p>
-            <p>88103 13021</p>
           </div>
         </MagicCard>
         <img
