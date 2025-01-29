@@ -35,7 +35,7 @@ const socials = [
         className="invert-0 custom-arrow-pointer"
       />
     ),
-    href: "https://unstop.com/u/spacensu27031/",
+    href: "https://unstop.com/college-fests/spacecon-2025-netaji-subhas-university-of-technology-nsut-delhi-305393",
   },
   {
     title: "Gmail",

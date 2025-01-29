@@ -20,8 +20,7 @@ export const mainEvents: Event[] = [
     date: "2nd day spacecon, 24 jan",
     startTime: "Coming Soon",
     link: "https://aviralgaur.vercel.app/about",
-    image:
-      "https://plus.unsplash.com/premium_photo-1670793631007-e86c6ddfd812?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/ctrlalthack.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
     ruleBook: "https://aviralgaur.vercel.app/about",
@@ -34,8 +33,7 @@ export const mainEvents: Event[] = [
     date: "6th January",
     startTime: "Coming Soon",
     link: "https://aviralgaur.vercel.app/about",
-    image:
-      "https://plus.unsplash.com/premium_photo-1670793631007-e86c6ddfd812?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/skyscape.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
     ruleBook: "https://aviralgaur.vercel.app/about",
@@ -51,11 +49,11 @@ export const allEvents: Event[] = [
     date: "2nd day spacecon, 24 jan",
     startTime: "Coming Soon",
     link: "https://aviralgaur.vercel.app/about",
-    image:
-      "https://plus.unsplash.com/premium_photo-1670793631007-e86c6ddfd812?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/ctrlalthack.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
-    ruleBook: "https://aviralgaur.vercel.app/about",
+    ruleBook:
+      "https://drive.google.com/file/d/1lfh6MgsGQZKtfFPBUVxKasK9_ug0W3zj/view",
   },
   {
     name: "SkyScape",
@@ -64,11 +62,11 @@ export const allEvents: Event[] = [
     venue: "Coming Soon",
     date: "6th January",
     startTime: "Coming Soon",
-    link: "https://aviralgaur.vercel.app/about",
-    image:
-      "https://plus.unsplash.com/premium_photo-1670793631007-e86c6ddfd812?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://unstop.com/events/skyscape-spacecon-2025-netaji-subhas-university-of-technology-nsut-delhi-1378287",
+    image: "/skyscape.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
-    ruleBook: "https://aviralgaur.vercel.app/about",
+    ruleBook:
+      "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
   },
 ];
