@@ -17,7 +17,7 @@ export const mainEvents: Event[] = [
     name: "CTRL + ALT + HACK",
     description:
       "The SpaceCon Hackathon is a 24-hour innovation marathon where brilliant minds collaborate to ideate, design, and prototype solutions using Generative AI, Machine Learning, and Web 3.0/Blockchain.",
-    venue: "Coming Soon",
+    venue: "NSUT",
     date: "22nd - 23rd Feb",
     startTime: "8:00 am",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
@@ -46,7 +46,7 @@ export const allEvents: Event[] = [
     name: "CTRL + ALT + HACK",
     description:
       "The SpaceCon Hackathon is a 24-hour innovation marathon where brilliant minds collaborate to ideate, design, and prototype solutions using Generative AI, Machine Learning, and Web 3.0/Blockchain.",
-    venue: "Coming Soon",
+    venue: "NSUT",
     date: "22nd - 23rd Feb",
     startTime: "8:00 am",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
