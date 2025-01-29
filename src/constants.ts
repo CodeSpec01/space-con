@@ -23,7 +23,8 @@ export const mainEvents: Event[] = [
     image: "/ctrlalthack.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
-    ruleBook: "https://aviralgaur.vercel.app/about",
+    ruleBook:
+      "https://drive.google.com/file/d/1lfh6MgsGQZKtfFPBUVxKasK9_ug0W3zj/view",
   },
   {
     name: "SkyScape",
@@ -32,11 +33,12 @@ export const mainEvents: Event[] = [
     venue: "Coming Soon",
     date: "6th January",
     startTime: "Coming Soon",
-    link: "https://aviralgaur.vercel.app/about",
+    link: "https://unstop.com/events/skyscape-spacecon-2025-netaji-subhas-university-of-technology-nsut-delhi-1378287",
     image: "/skyscape.png",
     endTime: "Coming Soon",
     prize: "Coming Soon",
-    ruleBook: "https://aviralgaur.vercel.app/about",
+    ruleBook:
+      "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
   },
 ];
 
