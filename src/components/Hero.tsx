@@ -160,7 +160,7 @@ const Hero = () => {
               duration={100}
             />
           </h1>
-          <h2 className="font-mono w-full font-bold text-white text-[4vw] text-center align-middle z-40 px-5 mt-3 bg-black/30 backdrop-blur-sm rounded-full">
+          <h2 className="font-mono w-full font-bold text-white text-[4vw] text-center align-middle z-40 px-5 mt-3 bg-black/30 backdrop-blur-sm">
             <GradualSpacing
               className=" text-[4vw] md:text-[2vw] py-[0.5vh] md:mt-0 tracking-tighter"
               duration={0.4}

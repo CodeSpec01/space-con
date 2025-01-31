@@ -3,7 +3,7 @@ import Card from "./Card";
 import { mainEvents } from "../constants";
 
 const EventDisplay = () => {
-  const [activeEle, setActiveEle] = useState(1);
+  const [activeEle, setActiveEle] = useState(Math.floor(mainEvents.length / 2));
 
   return (
     <div className="my-[5vh] flex justify-center relative overflow-hidden w-[100vw] gap-[1vw]">

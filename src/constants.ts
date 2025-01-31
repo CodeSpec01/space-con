@@ -1,18 +1,31 @@
 export type Event = {
   name: string;
   description: string;
-  venue: string;
+  venue?: string;
   date: string;
   startTime?: string;
   link: string;
   image: string;
   endTime?: string;
-  prize: string;
+  prize?: string;
   ruleBook: string;
   comingSoon?: boolean;
 };
 
 export const mainEvents: Event[] = [
+  {
+    name: "InnovEarth",
+    description:
+      "The InnovEarth Ideathon is a platform for creative minds to generate innovative solutions using technologies to build scalable, impactful solutions to global challenges. Focused on themes such as women's safety, pollution control, healthcare improvements, rural development, space waste etc.  The event aims to inspire actionable ideas, solutions and roadmaps that promote sustainable development.",
+    venue: "Mini Audi, NSUT",
+    date: "21st Feb",
+    startTime: "10:00 am",
+    link: "https://unstop.com/o/OF2X9qd?lb=OjRJ5Man",
+    image: "/innovearth.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1n_j4QRcdIlSTsDR-OxtNRX2caHv3F37u/view?usp=sharing",
+  },
   {
     name: "CTRL + ALT + HACK",
     description:
@@ -43,6 +56,19 @@ export const mainEvents: Event[] = [
 
 export const allEvents: Event[] = [
   {
+    name: "InnovEarth",
+    description:
+      "The InnovEarth Ideathon is a platform for creative minds to generate innovative solutions using technologies to build scalable, impactful solutions to global challenges. Focused on themes such as women's safety, pollution control, healthcare improvements, rural development, space waste etc.  The event aims to inspire actionable ideas, solutions and roadmaps that promote sustainable development.",
+    venue: "Mini Audi, NSUT",
+    date: "21st Feb",
+    startTime: "10:00 am",
+    link: "https://unstop.com/o/OF2X9qd?lb=OjRJ5Man",
+    image: "/innovearth.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1n_j4QRcdIlSTsDR-OxtNRX2caHv3F37u/view?usp=sharing",
+  },
+  {
     name: "CTRL + ALT + HACK",
     description:
       "The SpaceCon Hackathon is a 24-hour innovation marathon where brilliant minds collaborate to ideate, design, and prototype solutions using Generative AI, Machine Learning, and Web 3.0/Blockchain.",
@@ -68,37 +94,4 @@ export const allEvents: Event[] = [
     ruleBook:
       "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
   },
-  // {
-  //   name: "Coming Soon",
-  //   description: "Coming Soon",
-  //   venue: "Online",
-  //   date: "Coming Soon",
-  //   link: "/comingsoon",
-  //   image: "/comingsoon.png",
-  //   prize: "Coming Soon",
-  //   ruleBook: "/comingsoon",
-  //   comingSoon: true,
-  // },
-  // {
-  //   name: "Coming Soon",
-  //   description: "Coming Soon",
-  //   venue: "Online",
-  //   date: "Coming Soon",
-  //   link: "/comingsoon",
-  //   image: "/comingsoon.png",
-  //   prize: "Coming Soon",
-  //   ruleBook: "/comingsoon",
-  //   comingSoon: true,
-  // },
-  // {
-  //   name: "Coming Soon",
-  //   description: "Coming Soon",
-  //   venue: "Online",
-  //   date: "Coming Soon",
-  //   link: "/comingsoon",
-  //   image: "/comingsoon.png",
-  //   prize: "Coming Soon",
-  //   ruleBook: "/comingsoon",
-  //   comingSoon: true,
-  // },
 ];

@@ -24,21 +24,37 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
           <strong className="text-[#6356fd]">DATE :</strong> {data!.date}
         </span>
         <br />
-        {data?.startTime && data.endTime ? (
+        {data?.startTime ? (
+          <>
+            {data.endTime ? (
+              <>
+                <span>
+                  <strong className="text-[#6356fd]">TIMING</strong> :{" "}
+                  {data.startTime} - {data.endTime}
+                </span>
+                <br />
+              </>
+            ) : (
+              <>
+                <span>
+                  <strong className="text-[#6356fd]">TIMING</strong> :{" "}
+                  {data.startTime}
+                </span>
+                <br />
+              </>
+            )}
+          </>
+        ) : null}
+        {data?.prize ? (
           <>
             <span>
-              <strong className="text-[#6356fd]">TIMING</strong> :{" "}
-              {data.startTime} - {data.endTime}
+              <strong className="text-[#6356fd]">PRIZE :</strong> {data?.prize}
             </span>
             <br />
           </>
         ) : null}
         <span>
-          <strong className="text-[#6356fd]">PRIZE :</strong> {data!.prize}
-        </span>
-        <br />
-        <span>
-          <strong className="text-[#6356fd]">VENUE :</strong> {data!.venue}
+          <strong className="text-[#6356fd]">VENUE :</strong> {data?.venue}
         </span>
         <br />
       </div>
