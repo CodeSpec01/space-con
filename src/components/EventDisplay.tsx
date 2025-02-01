@@ -39,7 +39,7 @@ const EventDisplay = () => {
               opacity: `${
                 activeEle === i ? 1 : 0.09 - Math.abs(activeEle - i) / 100
               }`,
-            }}
+            }} 
           >
             <Card data={event} key={i} />
           </div>

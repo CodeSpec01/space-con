@@ -1,18 +1,31 @@
 export type Event = {
   name: string;
-  description: string;
+  description?: string;
   venue?: string;
   date: string;
   startTime?: string;
-  link: string;
+  link?: string;
   image: string;
   endTime?: string;
   prize?: string;
-  ruleBook: string;
+  ruleBook?: string;
   comingSoon?: boolean;
 };
 
 export const mainEvents: Event[] = [
+  {
+    name: "Data Sphere",
+    description:
+      "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "12:00 PM",
+    link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
+    image: "/Datasphereweb.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1FIQsMkwPNEJf5BIq9p0Ixi_6G1Gx-vck/view?usp=sharing",
+  },
   {
     name: "DiraCosmos",
     description:
@@ -64,6 +77,15 @@ export const mainEvents: Event[] = [
     prize: "6K INR",
     ruleBook:
       "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
+  },
+  {
+    name: "Movie Eve",
+    description:"Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure.",
+    venue: "APJ 11",
+    date: "23rd Feb",
+    startTime:"5 PM",
+    image: "/MovieEve_Web.png",
+    
   },
 ];
 
@@ -119,5 +141,28 @@ export const allEvents: Event[] = [
     prize: "50K INR",
     ruleBook:
       "https://drive.google.com/file/d/1EvcXdTzUCra6jG8Ivu-Y0tE8FBghVAJR/view?usp=sharing",
+  },
+  {
+    name: "Movie Eve",
+    description:
+      "Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure..",
+    venue: "APJ 11",
+    date: "23rd Feb",
+    startTime:"5 PM",
+    image: "/MovieEve_Web.png",
+    
+  },
+  {
+    name: "Data Sphere",
+    description:
+      "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "12:00 PM",
+    link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
+    image: "/Datasphereweb.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1FIQsMkwPNEJf5BIq9p0Ixi_6G1Gx-vck/view?usp=sharing",
   },
 ];
