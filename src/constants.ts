@@ -14,6 +14,19 @@ export type Event = {
 
 export const mainEvents: Event[] = [
   {
+    name: "DiraCosmos",
+    description:
+      "DiraCosmos is the case study event in which we will be having questions revolving around Doraemon’s (a fictional character) cosmos adventure. This adventure includes pulsars, dark matter, dark energy, time warp, planck energy and planets.",
+    venue: "Coming Soon",
+    date: "23rd Feb",
+    startTime: "11:00 am",
+    link: "https://unstop.com/o/9qbhV3D?lb=OjRJ5Man",
+    image: "/diracosmos.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1EvcXdTzUCra6jG8Ivu-Y0tE8FBghVAJR/view?usp=sharing",
+  },
+  {
     name: "InnovEarth",
     description:
       "The InnovEarth Ideathon is a platform for creative minds to generate innovative solutions using technologies to build scalable, impactful solutions to global challenges. Focused on themes such as women's safety, pollution control, healthcare improvements, rural development, space waste etc.  The event aims to inspire actionable ideas, solutions and roadmaps that promote sustainable development.",
@@ -93,5 +106,18 @@ export const allEvents: Event[] = [
     prize: "6K INR",
     ruleBook:
       "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
+  },
+  {
+    name: "DiraCosmos",
+    description:
+      "DiraCosmos is the case study event in which we will be having questions revolving around Doraemon’s (a fictional character) cosmos adventure. This adventure includes pulsars, dark matter, dark energy, time warp, planck energy and planets.",
+    venue: "Coming Soon",
+    date: "23rd Feb",
+    startTime: "11:00 am",
+    link: "https://unstop.com/o/9qbhV3D?lb=OjRJ5Man",
+    image: "/diracosmos.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1EvcXdTzUCra6jG8Ivu-Y0tE8FBghVAJR/view?usp=sharing",
   },
 ];
