@@ -37,7 +37,7 @@ export const mainEvents: Event[] = [
     image: "/diracosmos.png",
     prize: "50K INR",
     ruleBook:
-      "https://drive.google.com/file/d/1EvcXdTzUCra6jG8Ivu-Y0tE8FBghVAJR/view?usp=sharing",
+      "https://drive.google.com/file/d/1-c6h0dYSLXFrXtG31MwsYWuTdAlW4N_-/view",
   },
   {
     name: "InnovEarth",
@@ -50,7 +50,7 @@ export const mainEvents: Event[] = [
     image: "/innovearth.png",
     prize: "50K INR",
     ruleBook:
-      "https://drive.google.com/file/d/1n_j4QRcdIlSTsDR-OxtNRX2caHv3F37u/view?usp=sharing",
+      "https://drive.google.com/file/d/1-ihCZMuyhd3T2ENRVm-LcCB2Xo8o0c66/view",
   },
   {
     name: "CTRL + ALT + HACK",
@@ -80,12 +80,12 @@ export const mainEvents: Event[] = [
   },
   {
     name: "Movie Eve",
-    description:"Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure.",
+    description:
+      "Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure.",
     venue: "APJ 11",
     date: "23rd Feb",
-    startTime:"5 PM",
+    startTime: "5 PM",
     image: "/MovieEve_Web.png",
-    
   },
 ];
 
@@ -101,7 +101,7 @@ export const allEvents: Event[] = [
     image: "/innovearth.png",
     prize: "50K INR",
     ruleBook:
-      "https://drive.google.com/file/d/1n_j4QRcdIlSTsDR-OxtNRX2caHv3F37u/view?usp=sharing",
+      "https://drive.google.com/file/d/1-ihCZMuyhd3T2ENRVm-LcCB2Xo8o0c66/view",
   },
   {
     name: "CTRL + ALT + HACK",
@@ -140,7 +140,7 @@ export const allEvents: Event[] = [
     image: "/diracosmos.png",
     prize: "50K INR",
     ruleBook:
-      "https://drive.google.com/file/d/1EvcXdTzUCra6jG8Ivu-Y0tE8FBghVAJR/view?usp=sharing",
+      "https://drive.google.com/file/d/1-c6h0dYSLXFrXtG31MwsYWuTdAlW4N_-/view",
   },
   {
     name: "Movie Eve",
@@ -148,9 +148,8 @@ export const allEvents: Event[] = [
       "Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure..",
     venue: "APJ 11",
     date: "23rd Feb",
-    startTime:"5 PM",
+    startTime: "5 PM",
     image: "/MovieEve_Web.png",
-    
   },
   {
     name: "Data Sphere",

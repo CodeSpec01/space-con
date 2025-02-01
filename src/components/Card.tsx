@@ -59,21 +59,18 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
         <br />
       </div>
       <div className="w-full flex flex-col md:flex-row items-center mt-1 gap-2 md:gap-0 justify-around">
-        {data?.name == "Movie Eve" ? null : (
-               <a
-              href={data!.ruleBook}
-              className="flex items-center gap-2 bg-green-500/30 hover:bg-[#333333] w-fit p-3 rounded-xl py-2 transition-all duration-300"
-              onClick={() => {
-                console.log(data);
-              }}
-            >
-              <span className="custom-arrow-pointer ">RuleBook</span>
-              <span className="custom-arrow-pointer bg-gray-800 rounded-full w-7 h-7 flex items-center justify-center text-center invert ">
-                &#8599;
-              </span>
-            </a> 
-        )}
-        
+        {data?.ruleBook ? (
+          <a
+            href={data!.ruleBook}
+            className="flex items-center gap-2 bg-green-500/30 hover:bg-[#333333] w-fit p-3 rounded-xl py-2 transition-all duration-300"
+          >
+            <span className="custom-arrow-pointer ">RuleBook</span>
+            <span className="custom-arrow-pointer bg-gray-800 rounded-full w-7 h-7 flex items-center justify-center text-center invert ">
+              &#8599;
+            </span>
+          </a>
+        ) : null}
+
         {data?.comingSoon ? (
           <>
             <div className="cursor-not-allowed flex items-center gap-2 bg-black/50 hover:bg-[#333333] w-fit p-3 rounded-xl py-2 transition-all duration-300">
@@ -85,15 +82,14 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
           </>
         ) : (
           <>
-            {data?.name == "Movie Eve" ? null : (
-                  <a
-                  href={data!.link}
-                  className="flex items-center gap-2 w-fit p-3 rounded-xl py-2 transition-all duration-300"
-                >
-                  <GlowingButton text="Register Now!" />
-                </a> 
-            )}
-            
+            {data?.link ? (
+              <a
+                href={data!.link}
+                className="flex items-center gap-2 w-fit p-3 rounded-xl py-2 transition-all duration-300"
+              >
+                <GlowingButton text="Register Now!" />
+              </a>
+            ) : null}
           </>
         )}
       </div>
