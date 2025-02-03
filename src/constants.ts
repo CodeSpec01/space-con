@@ -87,6 +87,19 @@ export const mainEvents: Event[] = [
     startTime: "5 PM",
     image: "/MovieEve_Web.png",
   },
+  {
+    name: "Web-a-Thon",
+    description:
+      "Web-a-Thon is a frontend-focused website design challenge where participants will craft visually stunning and innovative websites based on space-related problem statements. Entries will be judged on design, creativity, responsiveness, and code structure.",
+    venue: "Coming Soon",
+    date: "21st Feb",
+    startTime: "12 PM",
+    image: "/webathon.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
+    link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
+  },
 ];
 
 export const allEvents: Event[] = [
@@ -163,5 +176,18 @@ export const allEvents: Event[] = [
     prize: "50K INR",
     ruleBook:
       "https://drive.google.com/file/d/1FIQsMkwPNEJf5BIq9p0Ixi_6G1Gx-vck/view?usp=sharing",
+  },
+  {
+    name: "Web-a-Thon",
+    description:
+      "Web-a-Thon is a frontend-focused website design challenge where participants will craft visually stunning and innovative websites based on space-related problem statements. Entries will be judged on design, creativity, responsiveness, and code structure.",
+    venue: "Coming Soon",
+    date: "21st Feb",
+    startTime: "12 PM",
+    image: "/webathon.png",
+    link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
+    ruleBook:
+      "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
+    prize: "50K INR",
   },
 ];

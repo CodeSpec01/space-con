@@ -58,7 +58,7 @@ const Card = ({ data, className }: { data?: Event; className?: string }) => {
         </span>
         <br />
       </div>
-      <div className="w-full flex flex-col md:flex-row items-center mt-1 gap-2 md:gap-0 justify-around">
+      <div className="w-full flex flex-wrap justify-center flex-col md:flex-row items-center mt-1 gap-2 md:gap-0">
         {data?.ruleBook ? (
           <a
             href={data!.ruleBook}
