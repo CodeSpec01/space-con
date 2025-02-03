@@ -14,6 +14,17 @@ export type Event = {
 
 export const mainEvents: Event[] = [
   {
+    name: "Stargazing",
+    description:
+      "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "9:00 PM",
+    
+    image: "/Stargazing_web.png",
+    
+  },
+  {
     name: "Data Sphere",
     description:
       "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
@@ -189,5 +200,16 @@ export const allEvents: Event[] = [
     ruleBook:
       "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
     prize: "50K INR",
+  },
+  {
+    name: "Stargazing",
+    description:
+      "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "9:00 PM",
+    
+    image: "/Stargazing_web.png",
+    
   },
 ];
