@@ -20,23 +20,8 @@ export const mainEvents: Event[] = [
     venue: "comming soon",
     date: "22nd Feb 2025",
     startTime: "9:00 PM",
-    
+
     image: "/Stargazing_web.png",
-    
-  },
-  {
-    name: "AI Horizon",
-    description:
-      "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
-    venue: "comming soon",
-    date: "23rd Feb 2025",
-    link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
-    startTime: "12:00 PM",
-    endTime: "5:00 PM",
-    image: "/aihorizon.png",
-    prize: "50K INR",
-    ruleBook:
-      "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
   },
   {
     name: "Data Sphere",
@@ -124,6 +109,20 @@ export const mainEvents: Event[] = [
     ruleBook:
       "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
     link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
+  },
+  {
+    name: "AI Horizon",
+    description:
+      "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
+    venue: "comming soon",
+    date: "23rd Feb 2025",
+    link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
+    startTime: "12:00 PM",
+    endTime: "5:00 PM",
+    image: "/aihorizon.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
   },
 ];
 
