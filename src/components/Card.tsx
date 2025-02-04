@@ -1,7 +1,7 @@
 import { Event } from "../constants";
 import GlowingButton from "./GlowingButton";
 
-const Card = ({ data, className }: { data?: Event; className?: string }) => {
+const Card = ({ data, className } : { data?: Event; className?: string }) => {
   return (
     <div
       className={`w-[70vw] md:w-[30vw] bg-[#1f1f1f] p-6 pt-1 rounded-xl flex flex-col gap-3 justify-between ${className} `}

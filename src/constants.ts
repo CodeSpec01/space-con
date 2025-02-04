@@ -14,6 +14,20 @@ export type Event = {
 
 export const mainEvents: Event[] = [
   {
+    name: "AI Horizon",
+    description:
+      "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
+    venue: "comming soon",
+    date: "23rd Feb 2025",
+    link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
+    startTime: "12:00 PM",
+    endTime: "5:00 PM",
+    image: "/aihorizon.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
+  },
+  {
     name: "Data Sphere",
     description:
       "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
@@ -189,5 +203,19 @@ export const allEvents: Event[] = [
     ruleBook:
       "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
     prize: "50K INR",
+  },
+  {
+    name: "AI Horizon",
+    description:
+      "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
+    venue: "comming soon",
+    date: "23rd Feb 2025",
+    link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
+    startTime: "12:00 PM",
+    endTime: "5:00 PM",
+    image: "/aihorizon.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
   },
 ];
