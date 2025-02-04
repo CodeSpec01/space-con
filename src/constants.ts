@@ -14,6 +14,17 @@ export type Event = {
 
 export const mainEvents: Event[] = [
   {
+    name: "Stargazing",
+    description:
+      "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "9:00 PM",
+    
+    image: "/Stargazing_web.png",
+    
+  },
+  {
     name: "AI Horizon",
     description:
       "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
@@ -203,6 +214,17 @@ export const allEvents: Event[] = [
     ruleBook:
       "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
     prize: "50K INR",
+  },
+  {
+    name: "Stargazing",
+    description:
+      "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
+    venue: "comming soon",
+    date: "22nd Feb 2025",
+    startTime: "9:00 PM",
+    
+    image: "/Stargazing_web.png",
+    
   },
   {
     name: "AI Horizon",
