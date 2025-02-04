@@ -17,7 +17,7 @@ export const mainEvents: Event[] = [
     name: "Stargazing",
     description:
       "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "22nd Feb 2025",
     startTime: "9:00 PM",
 
@@ -27,7 +27,7 @@ export const mainEvents: Event[] = [
     name: "Data Sphere",
     description:
       "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "22nd Feb 2025",
     startTime: "12:00 PM",
     link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
@@ -114,7 +114,7 @@ export const mainEvents: Event[] = [
     name: "AI Horizon",
     description:
       "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "23rd Feb 2025",
     link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
     startTime: "12:00 PM",
@@ -192,7 +192,7 @@ export const allEvents: Event[] = [
     name: "Data Sphere",
     description:
       "This is the data analytics event of SpaceCon. As visualization takes centre stage, the event is all about drawing insights from the given data. It is the ultimate test of your analytical skills and storytelling as it involves presenting your insights in a creative and impactful way..",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "22nd Feb 2025",
     startTime: "12:00 PM",
     link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
@@ -218,7 +218,7 @@ export const allEvents: Event[] = [
     name: "Stargazing",
     description:
       "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "22nd Feb 2025",
     startTime: "9:00 PM",
     
@@ -229,7 +229,7 @@ export const allEvents: Event[] = [
     name: "AI Horizon",
     description:
       "AI Horizon: Generative AI Challenge brings together technology and creativity to explore the role of AI in space exploration and storytelling. Research with a focus on AI-driven research, planning, and mission. Workshops on cutting-edge AI innovations that help define our journey to human destinations. If you are into space, AI, or creative tech, here's your chance to explore the future of space exploration!",
-    venue: "comming soon",
+    venue: "coming soon",
     date: "23rd Feb 2025",
     link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
     startTime: "12:00 PM",
