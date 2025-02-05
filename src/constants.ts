@@ -14,6 +14,19 @@ export type Event = {
 
 export const mainEvents: Event[] = [
   {
+    name: "Respawn NSUT",
+    description:
+      "Respawn NSUT is SpaceCon’s ultimate gaming battleground, where strategy, skill, and adrenaline collide. With Mortal Kombat 11, FC24, Valorant, BGMI, and CODM, the arena is now open for all gaming enthusiasts to compete, conquer, and claim glory.",
+    venue: "coming soon",
+    date: "23rd Feb 2025",
+    link: "https://unstop.com/o/zykJYPq?lb=OjRJ5Man",
+    startTime: "1:00 PM",
+    image: "/respawnnsut.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/117dBK4rskj8i3XYGQUgV7s-jAoct04a7/view?usp=sharing",
+  },
+  {
     name: "Stargazing",
     description:
       "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
@@ -221,9 +234,8 @@ export const allEvents: Event[] = [
     venue: "coming soon",
     date: "22nd Feb 2025",
     startTime: "9:00 PM",
-    
+
     image: "/Stargazing_web.png",
-    
   },
   {
     name: "AI Horizon",
@@ -238,5 +250,18 @@ export const allEvents: Event[] = [
     prize: "50K INR",
     ruleBook:
       "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
+  },
+  {
+    name: "Respawn NSUT",
+    description:
+      "Respawn NSUT is SpaceCon’s ultimate gaming battleground, where strategy, skill, and adrenaline collide. With Mortal Kombat 11, FC24, Valorant, BGMI, and CODM, the arena is now open for all gaming enthusiasts to compete, conquer, and claim glory.",
+    venue: "coming soon",
+    date: "23rd Feb 2025",
+    link: "https://unstop.com/o/zykJYPq?lb=OjRJ5Man",
+    startTime: "1:00 PM",
+    image: "/respawnnsut.png",
+    prize: "50K INR",
+    ruleBook:
+      "https://drive.google.com/file/d/117dBK4rskj8i3XYGQUgV7s-jAoct04a7/view?usp=sharing",
   },
 ];
