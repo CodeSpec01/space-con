@@ -10,6 +10,7 @@ export type Event = {
   link?: string;
   ruleBook?: string;
   comingSoon?: boolean;
+  Day?:string
 };
 
 export const mainEvents: Event[] = [
@@ -169,6 +170,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/OF2X9qd?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/1-ihCZMuyhd3T2ENRVm-LcCB2Xo8o0c66/view",
+    Day:"Day 1"
   },
   {
     name: "CTRL + ALT + HACK",
@@ -183,6 +185,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/1lfh6MgsGQZKtfFPBUVxKasK9_ug0W3zj/view",
+    Day:"Day 2"
   },
   {
     name: "SkyScape",
@@ -197,6 +200,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/events/skyscape-spacecon-2025-netaji-subhas-university-of-technology-nsut-delhi-1378287",
     ruleBook:
       "https://drive.google.com/file/d/1o_wKaOvfM9njH_oM4ngnCyTg0ofXvbew/view",
+    Day:"Day 1"
   },
   {
     name: "DiraCosmos",
@@ -211,6 +215,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/9qbhV3D?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/1-c6h0dYSLXFrXtG31MwsYWuTdAlW4N_-/view",
+    Day:"Day 3"
   },
   {
     name: "Movie Eve",
@@ -220,6 +225,7 @@ export const allEvents: Event[] = [
     startTime: "5:00 PM",
     venue: "Coming Soon",
     image: "/MovieEve_Web.png",
+    Day:"Day 3"
   },
   {
     name: "Data Sphere",
@@ -234,6 +240,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/1FIQsMkwPNEJf5BIq9p0Ixi_6G1Gx-vck/view?usp=sharing",
+    Day:"Day 2"
   },
   {
     name: "Web-a-Thon",
@@ -248,6 +255,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/114FYKzW1L6bVVcMMr9PSDwWKRC-bpiO6/view?usp=drivesdk",
+    Day:"Day 1"
   },
   {
     name: "Stargazing",
@@ -257,6 +265,7 @@ export const allEvents: Event[] = [
     startTime: "9:00 PM",
     venue: "Coming Soon",
     image: "/Stargazing_web.png",
+    Day:"Day 2"
   },
   {
     name: "AI Horizon",
@@ -271,6 +280,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/1-x6fk1r7sJfUrxZB16jijFANZUUrz2yL/view?usp=drivesdk",
+    Day:"Day 3"
   },
   {
     name: "Respawn NSUT",
@@ -285,6 +295,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/zykJYPq?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/117dBK4rskj8i3XYGQUgV7s-jAoct04a7/view?usp=sharing",
+    Day:"Day 3"
   },
   {
     name: "Super-Know-A",
@@ -299,6 +310,7 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/VNbvxoA?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/14Nd8NFJHnndxoZlT2L47eddKISno6qj6/view?usp=drivesdk",
+    Day:"Day 2"
   },
   {
     name: "Product Prodigy",
@@ -313,5 +325,6 @@ export const allEvents: Event[] = [
     link: "https://unstop.com/o/gIbE1GA?lb=OjRJ5Man",
     ruleBook:
       "https://drive.google.com/file/d/14VPYgHXhbGDCIT5sibYVMcDD9nKI7iRU/view?usp=drivesdk",
+    Day:"Day 3"
   },
 ];
