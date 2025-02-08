@@ -96,7 +96,7 @@ export const mainEvents: Event[] = [
     image: "/ctrlalthack.png",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
     ruleBook:
-      "https://drive.google.com/file/d/1lfh6MgsGQZKtfFPBUVxKasK9_ug0W3zj/view",
+      "https://drive.google.com/file/d/15XK0e-urmkwnzOOG4-Qyt33OHaD_xpoi/view?usp=drivesdk",
   },
   {
     name: "Product Prodigy",
@@ -184,7 +184,7 @@ export const allEvents: Event[] = [
     image: "/ctrlalthack.png",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
     ruleBook:
-      "https://drive.google.com/file/d/1lfh6MgsGQZKtfFPBUVxKasK9_ug0W3zj/view",
+      "https://drive.google.com/file/d/15XK0e-urmkwnzOOG4-Qyt33OHaD_xpoi/view?usp=drivesdk",
     Day:"Day 2"
   },
   {

@@ -68,12 +68,13 @@ const EventsPage = () => {
         <div className="w-[95%] flex flex-wrap m-auto mt-10 md:justify-around justify-center gap-y-10 text-white ">
           {selectedTab == "All Events" ? allEvents?.map((event, i) => {
             return <Card className="w-[90vw]" data={event} key={i} />
-          }) : (null)}
-          {allEvents?.map((event,i)=>{
+          }) : 
+          (allEvents?.map((event,i)=>{
             if(event.Day == selectedTab){
               return <Card className="w-[90vw]" data={event} key={i} />
             }
-          })}
+          }))}
+          
         </div>
       </div>
     </>
