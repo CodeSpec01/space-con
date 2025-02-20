@@ -36,7 +36,7 @@ export const mainEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT",
     image: "/Datasphereweb.png",
     link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
     ruleBook:
@@ -50,7 +50,7 @@ export const mainEvents: Event[] = [
     startTime: "11:00 am",
     endTime: "5:00 pm",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT First Floor",
     image: "/diracosmos.png",
     link: "https://unstop.com/o/9qbhV3D?lb=OjRJ5Man",
     ruleBook:
@@ -64,7 +64,7 @@ export const mainEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "Main Audi",
     image: "/superknowa.png",
     link: "https://unstop.com/o/VNbvxoA?lb=OjRJ5Man",
     ruleBook:
@@ -78,7 +78,7 @@ export const mainEvents: Event[] = [
     startTime: "10:00 am",
     endTime: "5:00 pm",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "APJ Halls",
     image: "/innovearth.png",
     link: "https://unstop.com/o/OF2X9qd?lb=OjRJ5Man",
     ruleBook:
@@ -92,7 +92,7 @@ export const mainEvents: Event[] = [
     startTime: "8:00 am",
     endTime: "2:00 pm",
     prize: "1.5 Lakhs INR",
-    venue: "Coming Soon",
+    venue: "Main Audi 1&2",
     image: "/ctrlalthack.png",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
     ruleBook:
@@ -106,7 +106,7 @@ export const mainEvents: Event[] = [
     startTime: "11:00 AM",
     endTime: "5:00 AM",
     prize: "100K INR",
-    venue: "Coming Soon",
+    venue: "APJ",
     image: "/productprodigy.png",
     link: "https://unstop.com/o/gIbE1GA?lb=OjRJ5Man",
     ruleBook:
@@ -120,7 +120,7 @@ export const mainEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "Mini Audi 2",
     image: "/webathon.png",
     link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
     ruleBook:
@@ -134,7 +134,7 @@ export const mainEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT Ground Floor",
     image: "/aihorizon.png",
     link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
     ruleBook:
@@ -148,7 +148,7 @@ export const mainEvents: Event[] = [
     startTime: "1:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "S01 & S02",
     image: "/respawnnsut.png",
     link: "https://unstop.com/o/zykJYPq?lb=OjRJ5Man",
     ruleBook:
@@ -165,7 +165,7 @@ export const allEvents: Event[] = [
     startTime: "10:00 am",
     endTime: "5:00 pm",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "APJ Halls",
     image: "/innovearth.png",
     link: "https://unstop.com/o/OF2X9qd?lb=OjRJ5Man",
     ruleBook:
@@ -180,7 +180,7 @@ export const allEvents: Event[] = [
     startTime: "8:00 am",
     endTime: "2:00 pm",
     prize: "1.5 Lakhs INR",
-    venue: "Coming Soon",
+    venue: "Main Audi 1&2",
     image: "/ctrlalthack.png",
     link: "https://unstop.com/o/moUA7bT?lb=OjRJ5Man",
     ruleBook:
@@ -210,7 +210,7 @@ export const allEvents: Event[] = [
     startTime: "11:00 am",
     endTime: "5:00 pm",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT First Floor",
     image: "/diracosmos.png",
     link: "https://unstop.com/o/9qbhV3D?lb=OjRJ5Man",
     ruleBook:
@@ -223,7 +223,7 @@ export const allEvents: Event[] = [
       "Get ready for an electrifying night under the cosmos! Movie Eve brings you an immersive cinematic experience featuring a thrilling space-themed movie that will take you on an interstellar adventure..",
     date: "23rd Feb, 2025",
     startTime: "5:00 PM",
-    venue: "Coming Soon",
+    venue: "APJ",
     image: "/MovieEve_Web.png",
     Day:"Day 3"
   },
@@ -235,7 +235,7 @@ export const allEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT",
     image: "/Datasphereweb.png",
     link: "https://unstop.com/o/Ae7QPuX?lb=OjRJ5Man",
     ruleBook:
@@ -250,7 +250,7 @@ export const allEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "Mini Audi 2",
     image: "/webathon.png",
     link: "https://unstop.com/o/pzCMbhj?lb=OjRJ5Man",
     ruleBook:
@@ -263,7 +263,7 @@ export const allEvents: Event[] = [
       "Stargazing is a night spent under the vast celestial canvas, where the wonders of the universe come to life. With telescopes in hand, participants will embark on a journey of constellation hunting, planet spotting, and engaging discussions about the mysteries of the cosmos.",
     date: "22nd Feb, 2025",
     startTime: "9:00 PM",
-    venue: "Coming Soon",
+    venue: "CBT",
     image: "/Stargazing_web.png",
     Day:"Day 2"
   },
@@ -275,7 +275,7 @@ export const allEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "CBT Ground Floor",
     image: "/aihorizon.png",
     link: "https://unstop.com/o/jcZLfDC?lb=OjRJ5Man",
     ruleBook:
@@ -290,7 +290,7 @@ export const allEvents: Event[] = [
     startTime: "1:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "S01 & S02",
     image: "/respawnnsut.png",
     link: "https://unstop.com/o/zykJYPq?lb=OjRJ5Man",
     ruleBook:
@@ -305,7 +305,7 @@ export const allEvents: Event[] = [
     startTime: "12:00 PM",
     endTime: "5:00 PM",
     prize: "50K INR",
-    venue: "Coming Soon",
+    venue: "Main Audi",
     image: "/superknowa.png",
     link: "https://unstop.com/o/VNbvxoA?lb=OjRJ5Man",
     ruleBook:
@@ -320,7 +320,7 @@ export const allEvents: Event[] = [
     startTime: "11:00 AM",
     endTime: "5:00 AM",
     prize: "100K INR",
-    venue: "Coming Soon",
+    venue: "APJ",
     image: "/productprodigy.png",
     link: "https://unstop.com/o/gIbE1GA?lb=OjRJ5Man",
     ruleBook:
